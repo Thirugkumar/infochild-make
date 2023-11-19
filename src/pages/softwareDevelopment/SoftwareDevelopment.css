@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.software-header {
+  display: flex;
+  flex-direction: row;
+  padding: 160px 140px 0px 140px;
+}
+.software-header-left {
+  width: 45%;
+}
+.software-header-sub {
+  color: #fff;
+  font-size: 2.2rem;
+}
+.software-header-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.software-header-p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.software-header-btn {
+  height: 50px;
+  width: 180px;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.software-header-btn:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.software-header-right {
+  width: 50%;
+  display: flex;
+}
+.software-image1 {
+  height: 280px;
+}
+
+.software-header-part2 {
+  text-align: center;
+  padding: 40px 180px 20px 180px;
+}
+.software-header-part2-heading {
+  font-size: 2.4rem;
+}
+.software-header-part2-p {
+  font-size: 1.2rem;
+  opacity: 85%;
+  padding: 20px 100px 20px 100px;
+}
+.software-header-part2-btn {
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 300px;
+  height: 60px;
+  margin: 10px 40px 10px 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+  border-style: none;
+}
+.software-header-part2-btn:hover {
+  background-color: #ff5319;
+  border-style: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+
+/*-----findout more----------------------------------------------------*/
+/*-----findout more----------------------------------------------------*/
+/*-----findout more----------------------------------------------------*/
+
+.software-findout-more {
+  padding: 20px 140px 40px 100px;
+  display: flex;
+  background-color: #f3f3f3;
+}
+.software-findout-more-right {
+  padding: 40px 0px 0px 40px;
+}
+.software-findout-more-right-sub {
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  padding: 3px 12px 3px 12px;
+  font-weight: 500;
+}
+.software-findout-more-right-heading {
+  padding: 10px 0px 5px 0px;
+  font-size: 2.3rem;
+}
+.software-findout-more-right-p {
+  opacity: 80%;
+  font-size: 1.1rem;
+}
+.software-findout-more-right-li {
+  list-style: none;
+  padding: 10px 0px 20px 30px;
+  line-height: 30px;
+  opacity: 80%;
+}
+.software-findout-more-right-li i {
+  color: #ff5319;
+}
+.software-findout-more-right-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.45);
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 90%;
+  cursor: pointer;
+}
+.software-findout-more-right-btn:hover {
+  background-color: #ff5319;
+  color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+.software-findout-more-left-image {
+  margin-top: 40px;
+}
+
+/*-----software-lets all banner---------------------------------------------------*/
+/*-----software-lets all banner---------------------------------------------------*/
+/*-----software-lets all banner---------------------------------------------------*/
+
+.software-lets-all-banner {
+  padding: 30px 300px 30px 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.software-lets-all-banner-h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.software-lets-all-banner-btn {
+  width: 260px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 1.1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.software-lets-all-banner-btn:hover {
+  background-color: #fff;
+  color: #ff5319;
+  transition: all 0.3s ease;
+}
+
+/*-----software cards----------------------------------------------------*/
+/*-----software cards----------------------------------------------------*/
+/*-----software cards----------------------------------------------------*/
+
+.software-cards {
+  padding: 40px 140px 80px 140px;
+}
+.software-cards-banner {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.software-cards-heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.software-main {
+  display: flex;
+  justify-content: space-between;
+}
+.software-card:nth-child(even) {
+  top: 40px;
+}
+.software-card {
+  position: relative;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  margin: 40px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+}
+.software-border-card-round {
+  width: 200px;
+  height: 200px;
+  border-radius: 90px;
+  border: solid 5px #ff52197c;
+  margin: auto;
+}
+.software-card-round {
+  margin: 15px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.software-card-round i {
+  font-size: 5rem;
+  display: flex;
+  padding-top: 40px;
+  opacity: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.software-card:hover {
+  box-shadow: none;
+}
+.software-card:hover i {
+  color: #ff4000;
+  transition: all 0.3s ease;
+}
+.software-card:hover .software-border-card-round {
+  border: solid 5px #ff5319;
+  transition: all 0.3s ease;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  10% {
+    transform: rotate(-45deg);
+  }
+}
+.software-border-card-h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 20px 0px 20px;
+  color: #ff5319;
+}
+.software-border-card-p {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 0.9rem;
+}
+
+/*-----software-mastery-tools----------------------------------------------------*/
+/*-----software-mastery-tools----------------------------------------------------*/
+/*-----software-mastery-tools----------------------------------------------------*/
+.software-mastery-tools {
+  padding: 40px 140px 20px 140px;
+  background-color: rgb(240, 238, 238);
+}
+.software-mastery-tool-up .software-mastery-tool-sub {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.software-mastery-tool-heading {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.software-mastery-tool-p {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.1rem;
+}
+.software-tools-logo {
+  position: relative;
+  margin: 20px 0px 40px 145px;
+}
+.software-mastery-tool-bottom {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+}
+
+/*-----------responsive-------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------*/
+
+@media only screen and (max-width: 1280px) {
+  .software-header {
+    padding: 160px 40px 0px 80px;
+  }
+  .software-header-right {
+    width: 70%;
+  }
+  .software-header-part2-btn {
+    width: 280px;
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+  }
+  .software-header-part2 {
+    padding-top: 60px;
+  }
+  .software-header-part2-p {
+    padding: 20px 20px 20px 20px;
+  }
+  /*-----explore more---------------------*/
+  .software-findout-more {
+    padding: 20px 60px 20px 60px;
+    display: flex;
+  }
+  /*-----software-lets all banner-------------------*/
+  .software-lets-all-banner {
+    padding: 30px 200px 30px 100px;
+  }
+  /*-----software cards----------------------*/
+
+  .software-cards {
+    padding: 20px 80px 80px 80px;
+  }
+  .software-card {
+    width: 250px;
+  }
+  .software-border-card-round {
+    width: 180px;
+    height: 180px;
+    border-radius: 80px;
+  }
+  .software-card-round {
+    width: 140px;
+    height: 140px;
+  }
+  .software-card-round i {
+    font-size: 4rem;
+    padding-top: 35px;
+  }
+  /*-----software-mastery-tools-------------*/
+  .software-tools-logo {
+    margin: 20px 20px 40px 100px;
+  }
+  .software-mastery-tool-bottom {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .software-header {
+    padding: 120px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .software-header-right {
+    width: 100%;
+  }
+  .software-header-left {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .software-image1 {
+    height: 300px;
+    margin: auto;
+  }
+  .software-header-part2 {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    background-color: #f3f3f3;
+  }
+  /*-----findout more---------------------*/
+  .software-findout-more {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .software-findout-more-right {
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+  }
+  .software-findout-more-right-heading {
+    padding: 20px 0px 10px 0px;
+  }
+  .software-findout-more-right-p {
+    font-size: 1.3rem;
+  }
+  .software-findout-more-right-li {
+    text-align: start;
+    margin-left: 0px;
+    font-size: 1.2rem;
+  }
+  .software-findout-more-right-btn {
+    width: 80%;
+  }
+  .software-findout-more-left-image {
+    align-items: center;
+    margin: auto;
+    display: block;
+  }
+  /*-----software-lets all banner-------------------*/
+  .software-lets-all-banner {
+    padding: 30px 40px 30px 100px;
+  }
+  /*-----software cards----------------------*/
+  .software-cards {
+    padding: 40px 20px 20px 20px;
+  }
+  .software-cards-banner {
+    font-size: 1.4rem;
+  }
+  .software-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .software-card:nth-child(even) {
+    top: 0px;
+  }
+  .software-card {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+  }
+  .software-border-card-h2 {
+    font-size: 1.8rem;
+    padding: 40px 0px 0px 20px;
+    color: #ff5319;
+  }
+  .software-border-card-p {
+    font-size: 1.3rem;
+  }
+  /*-----software-mastery-tools-------------*/
+  .software-mastery-tools {
+    padding: 60px 40px 40px 40px;
+  }
+  .software-tools-logo {
+    margin: 20px 20px 20px 45px;
+  }
+  .software-mastery-tool-bottom {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .software-image1 {
+    width: 100%;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: -10px;
+    margin-bottom: -70px;
+  }
+  .software-header-part2 {
+    padding: 100px 5px 0px 5px;
+  }
+  /*-----findout more---------------------*/
+  .software-findout-more-left-image {
+    margin-top: 20px;
+    height: 220px;
+  }
+  .software-findout-more-right {
+    padding: 20px 0px 0px 0px;
+  }
+  .software-findout-more-right-li {
+    margin-left: -20px;
+    font-size: 1rem;
+  }
+  .software-findout-more-right-p {
+    opacity: 90%;
+    font-size: 1.2rem;
+  }
+  /*-----software-lets all banner-------------------*/
+  .software-lets-all-banner {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 5px 20px 5px;
+  }
+  .software-lets-all-banner-btn {
+    margin-top: 10px;
+  }
+  /*-----software cards----------------------*/
+  .software-cards {
+    padding: 40px 5px 20px 5px;
+    background-color: #062746;
+  }
+  .software-cards-heading {
+    color: #fff;
+  }
+  .software-main {
+    padding: 10px;
+  }
+  .software-card {
+    padding: 20px 5px 10px 5px;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+  }
+  .software-border-card-p {
+    color: #f3f3f3;
+  }
+  .software-cards-banner {
+    font-size: 1.2rem;
+  }
+
+  /*-----software-mastery-tools-------------*/
+  .software-mastery-tools {
+    padding: 20px 20px 20px 20px;
+  }
+  .software-tools-logo {
+    margin: 20px 5px 20px 30px;
+  }
+  .software-mastery-tool-bottom {
+    width: 100%;
+  }
+  .software-mastery-tool-logos {
+    height: 50px;
+    width: 50px;
+  }
+}

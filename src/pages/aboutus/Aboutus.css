@@ -1,0 +1,277 @@
+.about {
+  display: flex;
+  max-width: 100%;
+  padding: 120px 140px 125px 140px;
+  position: relative;
+  overflow: hidden;
+}
+.about-right {
+  width: 40%;
+  padding-top: 120px;
+}
+.about-right-heading {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 600;
+}
+.about-right-p {
+  color: #ffffffdc;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+.about-left-img {
+  position: absolute;
+}
+.about-right-btn {
+  height: 50px;
+  width: 220px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  border-style: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 0.425);
+  margin-top: 40px;
+}
+.about-right-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.about-right-btn span:after {
+  content: "\27A0";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.about-right-btn:hover span {
+  padding-right: 25px;
+}
+
+.about-right-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.about-left-img {
+  width: 50%;
+  z-index: 1;
+  padding-left: 5px;
+}
+.about-left::before {
+  display: inline-block;
+  position: absolute;
+  content: "\25cf";
+  color: #e14608;
+  font-size: 120rem;
+  top: -815px;
+  left: 510px;
+}
+.about-left::after {
+  display: inline-block;
+  position: absolute;
+  content: "\25cf";
+  color: #fff;
+  font-size: 150rem;
+  top: -1100px;
+  left: 500px;
+}
+.about-us {
+  display: flex;
+  padding: 40px 140px 40px 140px;
+}
+.about-us-left {
+  padding: 0px 80px 0px 0px;
+}
+.about-us-right {
+  margin: 10px 0px 0px 40px;
+}
+
+.about-us-right-sub {
+  font-size: 1.2rem;
+  border-width: 2px;
+  border-style: solid;
+  width: 150px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-us-right-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+.about-us-right-p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.675);
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+.signature_of_ceo {
+  visibility: hidden;
+}
+.about-memories {
+  padding: 40px 140px 20px 140px;
+}
+.about-memories-head {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.about-memories-left-sub {
+  font-size: 1.1rem;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  width: 150px;
+}
+.about-memories-left-heading {
+  color: #fff;
+  font-size: 2.2rem;
+  padding-top: 10px;
+}
+.about-memories-right {
+  width: 90%;
+  padding-top: 20px;
+}
+.about-p {
+  font-size: 1.2rem;
+  color: #ffffffb1;
+  line-height: 30px;
+}
+.about-memo-img {
+  align-items: center;
+  text-align: center;
+}
+.about-memo-img img {
+  margin: 18px;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 1280px) {
+  .about {
+    max-width: 100%;
+    padding: 120px 40px 70px 60px;
+  }
+  .about-right {
+    width: 35%;
+    padding-top: 90px;
+  }
+  .about-left::before {
+    left: 400px;
+  }
+  .about-left::after {
+    left: 400px;
+  }
+  .about-us {
+    display: flex;
+    padding: 40px 40px 40px 40px;
+  }
+  .about-us-left {
+    padding: 0px 40px 0px 0px;
+  }
+  .about-memories {
+    padding: 40px 40px 20px 40px;
+  }
+  .about-memo-img {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .about-memo-img img {
+    margin: 10px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .about {
+    padding: 20px 20px 100px 40px;
+  }
+  .about-right {
+    width: 60%;
+    padding-top: 160px;
+  }
+  .about-right-heading {
+    font-size: 2.5rem;
+  }
+  .about-left-img img {
+    position: absolute;
+    margin: 40px 0px 0px -50px;
+  }
+  .about-left::before {
+    left: 340px;
+  }
+  .about-left::after {
+    left: 340px;
+  }
+  .about-us {
+    flex-direction: column-reverse;
+    padding: 40px 20px 40px 20px;
+  }
+  .about-us-left {
+    padding: 0;
+    margin: auto;
+  }
+  .aboutus-img img {
+    height: 650px;
+  }
+  .signature_of_ceo {
+    visibility: visible;
+  }
+  .signature_of_ceo img {
+    height: 240px;
+    padding-left: 100px;
+  }
+  .about-us-right {
+    margin: 0;
+  }
+  .about-memories {
+    padding: 40px 20px 20px 20px;
+  }
+  .about-memories-right {
+    padding-top: 0px;
+  }
+  .about-memo-img img {
+    margin: 5px;
+    border-radius: 15px;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .about {
+    padding: 20px 10px 100px 10px;
+  }
+  .about-right {
+    text-align: center;
+    width: 100%;
+  }
+  .about-left {
+    visibility: hidden;
+  }
+  .about-us {
+    padding: 40px 10px 40px 10px;
+  }
+  .signature_of_ceo img {
+    height: 140px;
+    padding-left: 40px;
+  }
+  .aboutus-img img {
+    height: 420px;
+  }
+  .about-memories-head {
+    flex-direction: column;
+  }
+  .about-memories-left-heading {
+    font-size: 2rem;
+  }
+  .about-memo-img img {
+    width: 320px;
+  }
+}

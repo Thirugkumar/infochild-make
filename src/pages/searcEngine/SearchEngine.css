@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.search-header {
+  display: flex;
+  flex-direction: row;
+  padding: 160px 140px 0px 140px;
+}
+.search-header-left {
+  width: 45%;
+}
+.search-header-sub {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-top: 20px;
+}
+.search-header-heading {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.search-header-p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.search-header-btn {
+  height: 50px;
+  width: 180px;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.search-header-btn:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.search-header-right {
+  width: 50%;
+  display: flex;
+}
+.search-image1 {
+  height: 280px;
+}
+
+.search-header-part2 {
+  text-align: center;
+  padding: 40px 180px 20px 180px;
+}
+.search-header-part2-heading {
+  font-size: 2.4rem;
+}
+.search-header-part2-p {
+  font-size: 1.2rem;
+  opacity: 85%;
+  padding: 20px 100px 20px 100px;
+}
+.search-header-part2-btn {
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 300px;
+  height: 60px;
+  margin: 10px 40px 10px 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+  border-style: none;
+}
+.search-header-part2-btn:hover {
+  background-color: #ff5319;
+  border-style: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+
+/*-----findout more----------------------------------------------------*/
+/*-----findout more----------------------------------------------------*/
+/*-----findout more----------------------------------------------------*/
+
+.search-findout-more {
+  padding: 20px 160px 40px 200px;
+  display: flex;
+  background-color: #f3f3f3;
+}
+.search-findout-more-right {
+  padding: 40px 0px 0px 40px;
+}
+.search-findout-more-right-sub {
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  padding: 3px 12px 3px 12px;
+  font-weight: 500;
+}
+.search-findout-more-right-heading {
+  padding: 10px 0px 5px 0px;
+  font-size: 2.3rem;
+}
+.search-findout-more-right-p {
+  opacity: 80%;
+  font-size: 1.1rem;
+}
+.search-findout-more-right-li {
+  list-style: none;
+  padding: 10px 0px 20px 30px;
+  line-height: 30px;
+  opacity: 80%;
+}
+.search-findout-more-right-li i {
+  color: #ff5319;
+}
+.search-findout-more-right-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.45);
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 90%;
+  cursor: pointer;
+}
+.search-findout-more-right-btn:hover {
+  background-color: #ff5319;
+  color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+.search-findout-more-left-image {
+  margin-top: 40px;
+}
+
+/*-----search-lets all banner---------------------------------------------------*/
+/*-----search-lets all banner---------------------------------------------------*/
+/*-----search-lets all banner---------------------------------------------------*/
+
+.search-lets-all-banner {
+  padding: 30px 300px 30px 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-lets-all-banner-h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.search-lets-all-banner-btn {
+  width: 260px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 1.1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.search-lets-all-banner-btn:hover {
+  background-color: #fff;
+  color: #ff5319;
+  transition: all 0.3s ease;
+}
+
+/*-----search cards----------------------------------------------------*/
+/*-----search cards----------------------------------------------------*/
+/*-----search cards----------------------------------------------------*/
+
+.search-cards {
+  padding: 40px 140px 80px 140px;
+}
+.search-cards-banner {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.search-cards-heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.search-main {
+  display: flex;
+  justify-content: space-between;
+}
+.search-card:nth-child(even) {
+  top: 40px;
+}
+.search-card {
+  position: relative;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  margin: 40px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+}
+.search-border-card-round {
+  width: 200px;
+  height: 200px;
+  border-radius: 90px;
+  border: solid 5px #ff52197c;
+  margin: auto;
+}
+.search-card-round {
+  margin: 15px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.search-card-round i {
+  font-size: 5rem;
+  display: flex;
+  padding-top: 40px;
+  opacity: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.search-card:hover {
+  box-shadow: none;
+}
+.search-card:hover i {
+  color: #ff4000;
+  transition: all 0.3s ease;
+}
+.search-card:hover .search-border-card-round {
+  border: solid 5px #ff5319;
+  transition: all 0.3s ease;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  10% {
+    transform: rotate(-45deg);
+  }
+}
+.search-border-card-h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 20px 0px 20px;
+  color: #ff5319;
+}
+.search-border-card-p {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 0.9rem;
+}
+
+/*-----search-mastery-tools----------------------------------------------------*/
+/*-----search-mastery-tools----------------------------------------------------*/
+/*-----search-mastery-tools----------------------------------------------------*/
+.search-mastery-tools {
+  padding: 60px 140px 40px 140px;
+  background-color: rgb(240, 238, 238);
+}
+.search-mastery-tool-sub {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.search-mastery-tool-heading {
+  opacity: 80%;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.search-mastery-tool-p {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.1rem;
+  opacity: 90%;
+}
+.search-tools-logo {
+  position: relative;
+  margin: 20px 0px 40px 145px;
+}
+.search-mastery-tool-bottom {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+}
+
+/*-----------responsive-------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------*/
+
+@media only screen and (max-width: 1280px) {
+  .search-header {
+    padding: 160px 40px 0px 80px;
+  }
+  .search-header-right {
+    width: 70%;
+  }
+  .search-header-part2-btn {
+    width: 280px;
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+  }
+  .search-header-part2 {
+    padding-top: 60px;
+  }
+  .search-header-part2-p {
+    padding: 20px 20px 20px 20px;
+  }
+  /*-----explore more---------------------*/
+  .search-findout-more {
+    padding: 20px 60px 20px 60px;
+    display: flex;
+  }
+  /*-----search-lets all banner-------------------*/
+  .search-lets-all-banner {
+    padding: 30px 200px 30px 100px;
+  }
+  /*-----search cards----------------------*/
+
+  .search-cards {
+    padding: 20px 80px 80px 80px;
+  }
+  .search-card {
+    width: 250px;
+  }
+  .search-border-card-round {
+    width: 180px;
+    height: 180px;
+    border-radius: 80px;
+  }
+  .search-card-round {
+    width: 140px;
+    height: 140px;
+  }
+  .search-card-round i {
+    font-size: 4rem;
+    padding-top: 35px;
+  }
+  /*-----search-mastery-tools-------------*/
+  .search-tools-logo {
+    margin: 20px 20px 40px 100px;
+  }
+  .search-mastery-tool-bottom {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .search-header {
+    padding: 120px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .search-header-right {
+    width: 100%;
+  }
+  .search-header-left {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .search-image1 {
+    height: 300px;
+    margin: auto;
+  }
+  .search-header-part2 {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    background-color: #f3f3f3;
+  }
+  /*-----findout more---------------------*/
+  .search-findout-more {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .search-findout-more-right {
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+  }
+  .search-findout-more-right-heading {
+    padding: 20px 0px 10px 0px;
+  }
+  .search-findout-more-right-p {
+    font-size: 1.3rem;
+  }
+  .search-findout-more-right-li {
+    text-align: start;
+    margin-left: 0px;
+    font-size: 1.2rem;
+  }
+  .search-findout-more-right-btn {
+    width: 80%;
+  }
+  .search-findout-more-left-image {
+    align-items: center;
+    margin: auto;
+    display: block;
+  }
+  /*-----search-lets all banner-------------------*/
+  .search-lets-all-banner {
+    padding: 30px 40px 30px 100px;
+  }
+  /*-----search cards----------------------*/
+  .search-cards {
+    padding: 40px 20px 20px 20px;
+  }
+  .search-cards-banner {
+    font-size: 1.4rem;
+  }
+  .search-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .search-card:nth-child(even) {
+    top: 0px;
+  }
+  .search-card {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+  }
+  .search-border-card-h2 {
+    font-size: 1.8rem;
+    padding: 40px 0px 0px 20px;
+    color: #ff5319;
+  }
+  .search-border-card-p {
+    font-size: 1.3rem;
+  }
+  /*-----search-mastery-tools-------------*/
+  .search-mastery-tools {
+    padding: 60px 40px 40px 40px;
+  }
+  .search-tools-logo {
+    margin: 20px 20px 20px 45px;
+  }
+  .search-mastery-tool-bottom {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .search-image1 {
+    width: 100%;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: -10px;
+    margin-bottom: -70px;
+  }
+  .search-header-part2 {
+    padding: 100px 5px 0px 5px;
+  }
+  /*-----findout more---------------------*/
+  .search-findout-more-left-image {
+    margin-top: 20px;
+    height: 220px;
+  }
+  .search-findout-more-right {
+    padding: 20px 0px 0px 0px;
+  }
+  .search-findout-more-right-li {
+    margin-left: -20px;
+    font-size: 1rem;
+  }
+  .search-findout-more-right-p {
+    opacity: 90%;
+    font-size: 1.2rem;
+  }
+  /*-----search-lets all banner-------------------*/
+  .search-lets-all-banner {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 5px 20px 5px;
+  }
+  .search-lets-all-banner-btn {
+    margin-top: 10px;
+  }
+  /*-----search cards----------------------*/
+  .search-cards {
+    padding: 40px 5px 20px 5px;
+    background-color: #062746;
+  }
+  .search-cards-heading {
+    color: #fff;
+  }
+  .search-main {
+    padding: 10px;
+  }
+  .search-card {
+    padding: 20px 5px 10px 5px;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+  }
+  .search-border-card-p {
+    color: #f3f3f3;
+  }
+  .search-cards-banner {
+    font-size: 1.2rem;
+  }
+
+  /*-----search-mastery-tools-------------*/
+  .search-mastery-tools {
+    padding: 20px 20px 20px 20px;
+  }
+  .search-tools-logo {
+    margin: 20px 5px 20px 30px;
+  }
+  .search-mastery-tool-bottom {
+    width: 100%;
+  }
+  .search-mastery-tool-logos {
+    height: 50px;
+    width: 50px;
+  }
+}

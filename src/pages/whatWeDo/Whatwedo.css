@@ -1,0 +1,310 @@
+.what-we-do {
+  padding: 140px 140px 60px 160px;
+}
+.what-we-do .WWb {
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+}
+.what-we-do-imgs {
+  display: flex;
+  filter: saturate(-1);
+}
+.what-we-do-imgs2 {
+  display: flex;
+  filter: saturate(-1);
+  margin-bottom: -500px;
+}
+.tooltip {
+  position: relative;
+  background: rgba(187, 187, 187, 0.8);
+  color: rgb(0, 0, 0);
+  visibility: hidden;
+  padding: 5px 15px 5px 15px;
+  border-radius: 25px;
+  width: 420px;
+  z-index: 1;
+}
+.tooltip h3 {
+  color: #dd5326;
+  font-size: 1.4rem;
+}
+.tooltip-arrow {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent rgba(187, 187, 187, 0.888) transparent transparent;
+}
+.tooltip-arrow-right {
+  top: 50%;
+  left: 100%;
+  border-color: transparent transparent transparent rgba(187, 187, 187, 0.888);
+}
+.what-we-do-imgs .WW1 {
+  position: relative;
+  cursor: pointer;
+  top: -140px;
+  opacity: 40%;
+  right: 40px;
+}
+.tooltip-WW1 {
+  left: 78%;
+  top: 12%;
+}
+.what-we-do-imgs .WW1:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.what-we-do-imgs .WW2 {
+  position: relative;
+  cursor: pointer;
+  opacity: 40%;
+  right: 100px;
+  top: -140px;
+}
+.tooltip-WW2 {
+  left: 50%;
+  top: 10%;
+}
+.what-we-do-imgs .WW2:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+.what-we-do-imgs .WW3 {
+  position: relative;
+  cursor: pointer;
+  opacity: 40%;
+  top: -200px;
+  right: 150px;
+}
+.tooltip-WW3 {
+  right: 120%;
+}
+.what-we-do-imgs .WW3:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+.what-we-do-imgs2 .WW4 {
+  position: relative;
+  cursor: pointer;
+  opacity: 40%;
+  top: -400px;
+  left: 60px;
+}
+.tooltip-WW4 {
+  left: 75%;
+  top: -50%;
+}
+.what-we-do-imgs2 .WW4:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+.what-we-do-imgs2 .WW5 {
+  position: relative;
+  cursor: pointer;
+  opacity: 40%;
+  top: -420px;
+  left: 80px;
+}
+.tooltip-WW5 {
+  left: 90%;
+  top: -45%;
+}
+.what-we-do-imgs2 .WW5:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+.what-we-do-imgs2 .WW6 {
+  position: relative;
+  cursor: pointer;
+  opacity: 40%;
+  top: -500px;
+  left: 100px;
+}
+.tooltip-WW6 {
+  right: 60%;
+  top: -55%;
+}
+.what-we-do-imgs2 .WW6:hover {
+  opacity: 100%;
+  transition: 0.3s ease-in-out;
+}
+@media only screen and (max-width: 1280px) {
+  .what-we-do {
+    padding: 120px 10px 60px 20px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .what-we-do .WWb {
+    display: none;
+  }
+  .tooltip-arrow {
+    display: none;
+  }
+  .what-we-do {
+    padding: 140px 0px 0px 10px;
+    background-color: #ffffff;
+  }
+  .what-we-do-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .what-we-do-flex .what-we-do-imgs {
+    display: grid;
+    flex-direction: column;
+  }
+  .what-we-do-flex .what-we-do-imgs2 {
+    display: grid;
+    flex-direction: column;
+  }
+  .what-we-do-imgs .WW1 {
+    opacity: 100%;
+    left: -20px;
+    top: -200px;
+  }
+  .tooltip-WW1 {
+    top: 10%;
+  }
+  .what-we-do-imgs .WW2 {
+    opacity: 100%;
+    top: -340px;
+    right: 10px;
+  }
+  .tooltip-WW2 {
+    top: -5%;
+    left: 330px;
+  }
+  .what-we-do-imgs .WW3 {
+    opacity: 100%;
+    top: -360px;
+    right: 10px;
+  }
+  .tooltip-WW3 {
+    top: -12%;
+    left: 350px;
+  }
+  .what-we-do-imgs2 .WW4 {
+    opacity: 100%;
+    top: 30px;
+    left: 40px;
+  }
+  .tooltip-WW4 {
+    top: 40%;
+    left: -370px;
+    margin-right: -80px;
+  }
+  .what-we-do-imgs2 .WW5 {
+    opacity: 100%;
+    top: -150px;
+    left: 40px;
+  }
+  .tooltip-WW5 {
+    top: 15%;
+    left: -370px;
+    margin-right: -80px;
+  }
+  .what-we-do-imgs2 .WW6 {
+    opacity: 100%;
+    top: -340px;
+    left: 40px;
+  }
+  .tooltip-WW6 {
+    top: -10%;
+    left: -370px;
+    margin-right: -80px;
+  }
+  .tooltip {
+    visibility: visible;
+  }
+  .what-we-do-imgs {
+    margin-bottom: -100px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .what-we-do {
+    padding: 220px 10px 460px 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+  .tooltip {
+    width: 350px;
+  }
+  .tooltip {
+    background-color: #c73200;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+  .tooltip p {
+    display: none;
+  }
+  .tooltip h3 {
+    text-align: center;
+    color: #ffffff;
+  }
+  .what-we-do-imgs2 .extraa {
+    margin-left: -380px;
+  }
+  .what-we-do-imgs2 .extraa {
+    margin-left: -400px;
+  }
+  .what-we-do-imgs .WW1 {
+    right: 0px;
+  }
+  .tooltip-WW1 {
+    top: 30%;
+    left: 0px;
+  }
+  .what-we-do-imgs .WW2 {
+    top: -100px;
+    right: 0px;
+  }
+  .tooltip-WW2 {
+    top: 50%;
+    left: 0px;
+  }
+  .what-we-do-imgs .WW3 {
+    top: 12%;
+    right: 0px;
+  }
+  .tooltip-WW3 {
+    top: 90%;
+    left: 0px;
+  }
+  .what-we-do-imgs2 .WW4 {
+    top: 120px;
+    left: 0px;
+  }
+  .tooltip-WW4 {
+    top: 75%;
+    left: 0px;
+  }
+  .what-we-do-imgs2 .WW5 {
+    top: 12%;
+    left: 0px;
+  }
+  .tooltip-WW5 {
+    top: 62%;
+    left: 0px;
+  }
+  .what-we-do-imgs2 .WW6 {
+    top: 120px;
+    left: 0px;
+  }
+  .tooltip-WW6 {
+    top: 75%;
+    left: 0px;
+  }
+  .tooltip {
+    visibility: visible;
+  }
+}

@@ -1,0 +1,125 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.learnhut {
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+
+.learn-left {
+  padding-top: 80px;
+  padding-bottom: 0;
+  margin-left: 160px;
+}
+
+.l-info .l-heading {
+  line-height: 70px;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+.l-info .learn-p {
+  font-size: 1.2rem;
+  width: 90%;
+  color: rgba(0, 0, 0, 0.58);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.l-btn {
+  color: #fff;
+  font-weight: bold;
+  background-color: blue;
+  width: 180px;
+  height: 50px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.508);
+}
+
+.l-btn:hover {
+  transition: all 0.2s ease;
+  transform: scale(0.9);
+  box-shadow: none;
+  font-weight: bold;
+  background-color: forestgreen;
+}
+
+.learn-right {
+  padding: 60px 140px 0px 20px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .learn-left {
+    margin: 0;
+    padding: 60px 20px 20px 80px;
+    width: 50%;
+  }
+  .learn-right img {
+    height: 400px;
+  }
+  .learn-right {
+    width: 50%;
+  }
+  .l-info .l-heading {
+    line-height: 50px;
+    font-size: 3.3rem;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .learn-left {
+    padding: 40px 0px 20px 20px;
+    width: 60%;
+    text-align: start;
+  }
+  .learn-right img {
+    height: 300px;
+  }
+  .learn-right {
+    width: 50%;
+  }
+  .l-info .l-heading {
+    line-height: 40px;
+    font-size: 2.5rem;
+  }
+  .l-info .learn-p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 429px) {
+  .learnhut {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .learn-left {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .learn-right {
+    height: 320px;
+    margin: -50px 0px 30px 30px;
+  }
+  .l-info .l-heading {
+    line-height: 40px;
+    font-size: 2.5rem;
+  }
+  .l-info .learn-p {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .learn-left {
+    text-align: center;
+    width: 90%;
+  }
+  .learn-right img {
+    height: 300px;
+  }
+}

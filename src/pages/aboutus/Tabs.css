@@ -1,0 +1,75 @@
+.container {
+  width: 600px;
+  padding-top: 40px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs .tabs-btn {
+  color: #000000;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  padding: 20px;
+  width: 260px;
+  background-color: rgb(226, 226, 226);
+  transition: all 0.5s ease-out;
+}
+
+.tabs .tabs-btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(150, 150, 150);
+}
+
+.tabs .tabs-btn:disabled {
+  background: #ff5f35;
+  color: white;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content {
+  padding: 40px 0px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  border: #ff5f35 solid 3px;
+  border-radius: 5px;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: start;
+  margin-top: -30px;
+}
+.content ul {
+  padding-left: 30px;
+}
+.tabs-btn {
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 835px) {
+  .container {
+    width: 700px;
+    padding-top: 40px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .container {
+    width: 340px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tabs .tabs-btn {
+    width: 160px;
+  }
+}

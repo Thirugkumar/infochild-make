@@ -1,0 +1,171 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.maps {
+  display: flex;
+  width: 100%;
+  padding: 40px 0px 20px 0px;
+}
+.map-subtitle {
+  font-size: 1.2rem;
+  color: #ff6600;
+  letter-spacing: 1px;
+}
+.map-subtitle span {
+  display: inline-block;
+  position: relative;
+}
+.map-subtitle span:after {
+  content: "\2712";
+  position: absolute;
+  opacity: 50%;
+  top: 0;
+  right: -25px;
+}
+.map-right .map-title {
+  color: #003366;
+  font-size: 2.6rem;
+  margin-top: 10px;
+}
+.maps .map-text {
+  font-size: 1.3rem;
+  color: black;
+}
+.map {
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.map-left img {
+  height: 340px;
+}
+
+.map-right {
+  padding: 60px 120px 0px 20px;
+}
+.map-btn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: #ff6600;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.308);
+}
+.map-btn:hover {
+  background-color: #003366;
+  transform: scale(0.9);
+  transition: all 0.1s ease;
+  box-shadow: none;
+}
+.indi {
+  height: 40px;
+  cursor: pointer;
+}
+.indi:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+  filter: sepia(200) saturate(20);
+}
+
+@media only screen and (max-width: 1280px) {
+  .map {
+    margin: 0;
+    padding: 20px 10px 20px 40px;
+  }
+  .indi {
+    margin: 15px 0px 0px 40px;
+  }
+  .map-right {
+    padding: 30px 40px 20px 10px;
+  }
+  .map-right .map-title {
+    font-size: 2.5rem;
+  }
+  .maps .map-text {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .maps {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    width: 100%;
+    padding: 20px 30px 20px 100px;
+  }
+  .indi {
+    margin: 15px 0px 0px 100px;
+  }
+  .map-right {
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+  .map-right .map-text {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .maps {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    width: 90%;
+    padding: 0px 0px 0px 40px;
+    height: 200px;
+  }
+  .indi {
+    height: 50px;
+    padding: 0px 0px 20px 40px;
+    margin: 0px;
+  }
+  .map-left img {
+    width: 100%;
+    height: 200px;
+  }
+  .map-right {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .small .sl {
+    margin: -85px 0px 0px -162px;
+  }
+  .small .us {
+    margin: -70px 0px 0px -40px;
+  }
+  .small .can {
+    margin: -60px 0px 0px -30px;
+  }
+  .small .aus {
+    margin: -100px 0px 0px -180px;
+  }
+  .small .uk {
+    margin: -65px 0px 0px -120px;
+  }
+  .small .swiss {
+    margin: -45px 0px 0px -125px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .map {
+    width: 90%;
+    padding: 20px 0px 0px 20px;
+  }
+  .indi {
+    padding: 20px 0px 0px 20px;
+  }
+  .map-right {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+}

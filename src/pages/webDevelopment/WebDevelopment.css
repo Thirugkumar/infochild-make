@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.web-header {
+  display: flex;
+  flex-direction: row;
+  padding: 160px 140px 60px 140px;
+}
+.web-header-left {
+  width: 42%;
+}
+.web-header-sub {
+  color: #fff;
+  font-size: 2.2rem;
+}
+.web-header-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.web-header-p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.web-header-btn {
+  height: 50px;
+  width: 180px;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.web-header-btn:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.web-header-right {
+  width: 50%;
+  display: flex;
+}
+.web-image1 {
+  position: relative;
+  bottom: -60px;
+  opacity: 80%;
+  border-top-left-radius: 20px;
+  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.web-image2 {
+  position: absolute;
+  z-index: 1;
+  left: 52%;
+  bottom: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.web-image3 {
+  position: relative;
+  opacity: 80%;
+  left: 0%;
+  bottom: -60px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.web-header-part2 {
+  text-align: center;
+  padding: 40px 180px 20px 180px;
+}
+.web-header-part2-heading {
+  font-size: 2.4rem;
+}
+.web-header-part2-p {
+  font-size: 1.3rem;
+  opacity: 85%;
+  padding: 20px 100px 20px 100px;
+}
+.web-header-part2-btn {
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 300px;
+  height: 60px;
+  margin: 10px 40px 10px 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+  border-style: none;
+}
+.web-header-part2-btn:hover {
+  background-color: #ff5319;
+  border-style: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
+
+/*-----findout more----------------------------------------------------*/
+/*-----findout more----------------------------------------------------*/
+/*-----findout more----------------------------------------------------*/
+
+.web-findout-more {
+  padding: 20px 160px 40px 160px;
+  display: flex;
+  background-color: #f3f3f3;
+}
+.web-findout-more-right {
+  padding: 40px 0px 0px 40px;
+}
+.web-findout-more-right-sub {
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  padding: 3px 12px 3px 12px;
+  font-weight: 500;
+}
+.web-findout-more-right-heading {
+  padding: 10px 0px 5px 0px;
+  font-size: 2.3rem;
+}
+.web-findout-more-right-p {
+  opacity: 80%;
+  font-size: 1.1rem;
+}
+.web-findout-more-right-li {
+  list-style: none;
+  padding: 10px 0px 20px 30px;
+  line-height: 30px;
+  opacity: 80%;
+}
+.web-findout-more-right-li i {
+  color: #ff5319;
+}
+.web-findout-more-right-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.45);
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 90%;
+  cursor: pointer;
+}
+.web-findout-more-right-btn:hover {
+  background-color: #ff5319;
+  color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+.web-findout-more-left-image {
+  margin-top: 20px;
+}
+
+/*-----web-lets all banner---------------------------------------------------*/
+/*-----web-lets all banner---------------------------------------------------*/
+/*-----web-lets all banner---------------------------------------------------*/
+
+.web-lets-all-banner {
+  padding: 30px 300px 30px 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.web-lets-all-banner-h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.web-lets-all-banner-btn {
+  width: 260px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 1.1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.web-lets-all-banner-btn:hover {
+  background-color: #fff;
+  color: #ff5319;
+  transition: all 0.3s ease;
+}
+
+/*-----web cards----------------------------------------------------*/
+/*-----web cards----------------------------------------------------*/
+/*-----web cards----------------------------------------------------*/
+
+.web-cards {
+  padding: 40px 140px 80px 140px;
+}
+.web-cards-banner {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.web-cards-heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.web-main {
+  display: flex;
+  justify-content: space-between;
+}
+.web-card:nth-child(even) {
+  top: 40px;
+}
+.web-card {
+  position: relative;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  margin: 40px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+}
+.web-border-card-round {
+  width: 200px;
+  height: 200px;
+  border-radius: 90px;
+  border: solid 5px #ff52197c;
+  margin: auto;
+}
+.web-card-round {
+  margin: 15px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.web-card-round i {
+  font-size: 5rem;
+  display: flex;
+  padding-top: 40px;
+  opacity: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.web-card:hover {
+  box-shadow: none;
+}
+.web-card:hover i {
+  color: #ff4000;
+  transition: all 0.3s ease;
+}
+.web-card:hover .web-border-card-round {
+  border: solid 5px #ff5319;
+  transition: all 0.3s ease;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  10% {
+    transform: rotate(-45deg);
+  }
+}
+.web-border-card-h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 20px 0px 20px;
+  color: #ff5319;
+}
+.web-border-card-p {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 0.9rem;
+}
+
+/*-----web-recent works----------------------------------*/
+/*-----web-recent works----------------------------------*/
+/*-----web-recent works----------------------------------*/
+.web-recent-works {
+  padding: 40px 40px 40px 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.web-recent-works-sub {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.web-recent-works-heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+}
+.web-images-slider1 {
+  width: 99%;
+  display: flex;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+}
+div.swiper-button-phpev,
+div.swiper-button-next {
+  color: rgb(8, 8, 8);
+  background-color: rgba(255, 255, 255, 0.253);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-weight: bold;
+  transform: scale(0.8);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+div.swiper-button-phpev:hover,
+div.swiper-button-next:hover {
+  color: #ffffff;
+  background-color: #062746;
+  transition: all 0.3s;
+}
+.web-recent-work-image {
+  width: 260px;
+  border-radius: 15px;
+}
+.works {
+  position: relative;
+  margin-left: 20px;
+}
+
+/*-----web-mastery-tools----------------------------------------------------*/
+/*-----web-mastery-tools----------------------------------------------------*/
+/*-----web-mastery-tools----------------------------------------------------*/
+.web-mastery-tools {
+  padding: 60px 140px 40px 140px;
+  background-color: rgb(255, 255, 255);
+}
+.web-mastery-tool-up .web-mastery-tool-sub {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #ee5522d2;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #ff5319;
+}
+.web-mastery-tool-heading {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.web-mastery-tool-p {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  font-size: 1.2rem;
+}
+.web-tools-logo {
+  position: relative;
+  margin: 20px 0px 40px 145px;
+}
+.web-mastery-tool-bottom {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+}
+
+/*-----------responsive------*/
+
+@media only screen and (max-width: 1280px) {
+  .web-header {
+    padding: 200px 40px 40px 80px;
+  }
+  .web-header-right {
+    width: 70%;
+  }
+  .web-image1 {
+    bottom: -40px;
+  }
+  .web-image2 {
+    bottom: 285px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .web-image3 {
+    bottom: -40px;
+  }
+  .web-header-part2-btn {
+    width: 280px;
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+  }
+  .web-header-part2 {
+    padding-top: 60px;
+  }
+  .web-header-part2-p {
+    padding: 20px 20px 20px 20px;
+  }
+  /*-----explore more---------------------*/
+  .web-findout-more {
+    padding: 20px 60px 20px 60px;
+    display: flex;
+  }
+  /*-----web-lets all banner-------------------*/
+  .web-lets-all-banner {
+    padding: 30px 200px 30px 100px;
+  }
+  /*-----web cards----------------------*/
+
+  .web-cards {
+    padding: 20px 80px 80px 80px;
+  }
+  .web-card {
+    width: 250px;
+  }
+  .border-card-round {
+    width: 180px;
+    height: 180px;
+    border-radius: 80px;
+  }
+  .card-round {
+    width: 140px;
+    height: 140px;
+  }
+  .card-round i {
+    font-size: 4rem;
+    padding-top: 35px;
+  }
+  /*-----web-recent works--------------*/
+  .web-recent-work-image {
+    width: 210px;
+    border-radius: 15px;
+  }
+  /*-----web-mastery-tools-------------*/
+  .tools-logo {
+    margin: 20px 20px 40px 100px;
+  }
+  .web-mastery-tool-bottom {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .web-header {
+    padding: 120px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .web-header-right {
+    width: 100%;
+  }
+  .web-header-left {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  .web-image1 {
+    width: 300px;
+    height: 220px;
+    margin-left: 10px;
+    bottom: 0px;
+  }
+  .web-image2 {
+    z-index: 1;
+    top: 340px;
+    margin-left: -160px;
+    display: flex;
+  }
+  .web-image3 {
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 120px;
+    width: 300px;
+    height: 220px;
+    border-bottom-right-radius: 20px;
+  }
+  .web-header-part2 {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    background-color: #f3f3f3;
+  }
+  /*-----explore more---------------------*/
+  .web-findout-more {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .web-findout-more-right {
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+  }
+  .web-findout-more-right-p {
+    font-size: 1.3rem;
+  }
+  .web-findout-more-right-li {
+    text-align: start;
+    margin-left: 150px;
+    font-size: 1.2rem;
+  }
+  .web-findout-more-right-btn {
+    width: 80%;
+  }
+  .web-findout-more-left-image {
+    align-items: center;
+    margin: auto;
+    display: block;
+  }
+  /*-----web-lets all banner-------------------*/
+  .web-lets-all-banner {
+    padding: 30px 40px 30px 100px;
+  }
+  /*-----web cards----------------------*/
+  .web-cards {
+    padding: 40px 20px 20px 20px;
+  }
+  .web-cards-banner {
+    font-size: 1.6rem;
+  }
+  .web-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .web-card:nth-child(even) {
+    top: 0px;
+  }
+  .web-card {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+  }
+  .web-border-card-h2 {
+    font-size: 1.8rem;
+    padding: 40px 0px 0px 20px;
+    color: #ff5319;
+  }
+  .web-border-card-p {
+    font-size: 1.3rem;
+  }
+
+  /*-----web-recent works--------------*/
+  .web-recent-works-heading {
+    padding: 20px 0px 0px 0px;
+  }
+  .web-recent-work-image {
+    width: 140px;
+  }
+  .web-works {
+    margin-left: 0px;
+  }
+  div.swiper-button-phpev,
+  div.swiper-button-next {
+    display: none;
+  }
+  /*-----web-mastery-tools-------------*/
+  .web-mastery-tools {
+    padding: 60px 40px 40px 40px;
+  }
+  .web-tools-logo {
+    margin: 20px 20px 20px 45px;
+  }
+  .web-mastery-tool-bottom {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .web-image2,
+  .web-image3 {
+    display: none;
+  }
+  .web-image1 {
+    width: 100%;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    margin-top: -60px;
+    margin-bottom: -100px;
+  }
+  .web-header-part2 {
+    padding: 140px 5px 0px 5px;
+  }
+  /*-----findout more---------------------*/
+  .web-findout-more-left-image {
+    height: 250px;
+  }
+  .web-findout-more-right {
+    padding: 20px 0px 0px 0px;
+  }
+  .web-findout-more-right-li {
+    margin-left: -20px;
+    font-size: 1rem;
+  }
+  .web-findout-more-right-p {
+    opacity: 90%;
+    font-size: 1.2rem;
+  }
+  /*-----web-lets all banner-------------------*/
+  .web-lets-all-banner {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 5px 20px 5px;
+  }
+  .web-lets-all-banner-btn {
+    margin-top: 10px;
+  }
+  /*-----web cards----------------------*/
+  .web-cards {
+    padding: 40px 5px 20px 5px;
+    background-color: #062746;
+  }
+  .web-cards-heading {
+    color: #fff;
+  }
+  .web-main {
+    padding: 10px;
+  }
+  .web-card {
+    padding: 20px 5px 10px 5px;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+  }
+  .web-border-card-p {
+    color: #f3f3f3;
+  }
+  /*-----web-recent works--------------*/
+  .web-recent-works {
+    padding: 40px 10px 40px 10px;
+  }
+  .web-recent-work-image {
+    height: 80px;
+    width: 80px;
+  }
+  .web-recent-works-heading {
+    padding: 0px 20px 0px 20px;
+  }
+  /*-----web-mastery-tools-------------*/
+  .web-mastery-tools {
+    padding: 20px 20px 20px 20px;
+  }
+  .tools-logo {
+    margin: 20px 5px 20px 30px;
+  }
+  .web-mastery-tool-bottom {
+    width: 100%;
+  }
+  .web-mastery-tool-logos {
+    height: 50px;
+    width: 50px;
+  }
+}

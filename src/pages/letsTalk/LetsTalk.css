@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding: 160px 140px 20px 160px;
+  justify-content: space-between;
+  background-image: url(https://infonits.io/storage/2022/09/bg-1-e1663058147364.webp);
+}
+.contact-right {
+  width: 40%;
+  padding: 80px 0px 100px 0px;
+}
+.contact-right-sub {
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px;
+  border-radius: 5px;
+  width: max-content;
+  padding: 2px 20px 2px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  opacity: 90%;
+}
+.contact-right-heading {
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 20px 0px 20px 0px;
+  opacity: 100%;
+}
+.contact-right-p {
+  color: #fff;
+  font-size: 1.1rem;
+  opacity: 90%;
+}
+.contact-right-social-icons {
+  font-size: 2rem;
+  margin: auto;
+}
+.contact-right-social-icons i {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 40px 20px 0px 0px;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.contact-right-social-icons .fb {
+  background-color: rgb(50, 50, 255);
+}
+.contact-right-social-icons .insta {
+  background-color: rgb(189, 1, 189);
+}
+.contact-right-social-icons .twitt {
+  background-color: rgb(34, 170, 255);
+}
+.contact-right-social-icons .yt {
+  background-color: red;
+}
+.contact-left {
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px 40px 40px;
+}
+.form input {
+  display: flex;
+  flex-direction: row;
+}
+#form {
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: solid 1px;
+}
+#mssg {
+  width: 100%;
+  height: 100px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: solid 1px;
+}
+.contact-submit-btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*-----------contact card--------------*/
+.contact-card-whole {
+  padding: 60px 140px 60px 140px;
+  background-color: #0a1928;
+}
+.contact-countries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact-country {
+  text-align: center;
+}
+.contact-country-title {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.contact-cards .contact-card-box {
+  display: inline-block;
+  width: 600px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  background-color: #1f2736;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.contact-card-box .layer {
+  z-index: 1;
+  position: absolute;
+  right: calc(100% - 4px);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #ff5f35;
+  transition: 0.5s;
+}
+.contact-card {
+  z-index: 2;
+  position: relative;
+}
+
+.contact-card-box:hover .layer {
+  right: 0;
+}
+.contact-card .contact-card-title {
+  color: white;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.contact-card-info {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 10px;
+}
+.contact-card {
+  color: #fff;
+  display: flex;
+  padding: 15px 0px 0px 20px;
+  align-items: center;
+}
+.contact-card i {
+  font-size: 1.5rem;
+}
+.contact-card-information {
+  padding-left: 20px;
+  text-align: start;
+}

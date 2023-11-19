@@ -1,0 +1,22 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.primary {
+  color: #082e53;
+}
+.primarybg {
+  background-color: #082e53;
+}
+.secondary {
+  color: #ff5f35;
+}
+.secondarybg {
+  background-color: #ff5f35;
+}

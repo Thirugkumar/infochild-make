@@ -1,0 +1,41 @@
+.company {
+  background-color: rgba(128, 128, 128, 0.177);
+  width: 100%;
+}
+
+.c-imgs {
+  padding: 0px 100px 0px 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.c-imgs img {
+  height: 50px;
+  cursor: pointer;
+  filter: saturate(0) contrast(1);
+}
+
+.c-imgs img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1024px) {
+  .c-imgs {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .c-imgs {
+    padding: 0px 10px 0px 10px;
+  }
+  .c-imgs img {
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .company {
+    display: none;
+  }
+}
