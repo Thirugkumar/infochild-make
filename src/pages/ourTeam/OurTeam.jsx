@@ -28,7 +28,7 @@ function OurTeam() {
       </div>
       <div className="meet-head">
         <h4>EXPERT PEOPLE MATTER</h4>
-        <h1 className="primary">Meet Our Team</h1>
+        <h1 className="meet-head-heading primary">Meet Our Team</h1>
         <p>
           We have extensive expertise in both entrepreneurship and information
           technology and we use all of our craft the ideal solution for each

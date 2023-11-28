@@ -8,14 +8,16 @@ import caseimg_4 from "../../assets/images/case-4.webp";
 function Casestudies() {
   return (
     <div className="casestudies">
-      <div className="subtitle">
+      <div className="subtitle secondary">
         <h4 className="case-sub-h4">
           <span>Our Case Studies -</span>
         </h4>
       </div>
 
       <div className="case">
-        <h2 className="case-left">We've Excelled in Impressive Projects.</h2>
+        <h2 className="case-left primary">
+          We've Excelled in Impressive Projects.
+        </h2>
         <p className="case-right">
           With our extensive experience across diverse fields, we provide
           excellent solutions that come with user-friendly interfaces. Our

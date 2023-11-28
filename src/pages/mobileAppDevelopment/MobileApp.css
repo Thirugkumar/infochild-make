@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 .mobile-header {
   display: flex;
   flex-direction: row;
-  padding: 160px 140px 0px 140px;
+  padding: 160px 180px 0px 180px;
 }
 .mobile-header-left {
   width: 42%;
@@ -82,7 +80,7 @@
 /*-----findout more----------------------------------------------------*/
 
 .mobile-findout-more {
-  padding: 20px 160px 40px 160px;
+  padding: 20px 180px 40px 180px;
   display: flex;
   background-color: #f3f3f3;
 }
@@ -138,7 +136,7 @@
 /*-----mobile-lets all banner---------------------------------------------------*/
 
 .mobile-lets-all-banner {
-  padding: 30px 300px 30px 240px;
+  padding: 30px 180px 30px 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -167,7 +165,7 @@
 /*-----mobile cards----------------------------------------------------*/
 
 .mobile-cards {
-  padding: 40px 140px 80px 140px;
+  padding: 40px 180px 80px 180px;
 }
 .mobile-cards-banner {
   align-items: center;
@@ -201,7 +199,7 @@
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   margin: 40px 0px 0px 0px;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 10px 0px;
 }
 .mobile-border-card-round {
   width: 200px;
@@ -259,7 +257,7 @@
 /*-----mobile-mastery-tools----------------------------------------------------*/
 /*-----mobile-mastery-tools----------------------------------------------------*/
 .mobile-mastery-tools {
-  padding: 40px 140px 20px 140px;
+  padding: 40px 180px 20px 180px;
   background-color: rgb(240, 238, 238);
 }
 .mobile-mastery-tool-up .mobile-mastery-tool-sub {
@@ -305,33 +303,33 @@
   .mobile-header-right {
     width: 70%;
   }
+  .mobile-header-part2 {
+    padding: 40px 40px 20px 40px;
+  }
   .mobile-header-part2-btn {
     width: 280px;
     height: 60px;
     margin: 10px 10px 10px 10px;
-  }
-  .mobile-header-part2 {
-    padding-top: 60px;
   }
   .mobile-header-part2-p {
     padding: 20px 20px 20px 20px;
   }
   /*-----explore more---------------------*/
   .mobile-findout-more {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 40px 20px 40px;
     display: flex;
   }
   /*-----mobile-lets all banner-------------------*/
   .mobile-lets-all-banner {
-    padding: 30px 200px 30px 100px;
+    padding: 30px 40px 30px 40px;
   }
   /*-----mobile cards----------------------*/
 
   .mobile-cards {
-    padding: 20px 80px 80px 80px;
+    padding: 20px 40px 80px 40px;
   }
   .mobile-card {
-    width: 250px;
+    width: 280px;
   }
   .mobile-border-card-round {
     width: 180px;
@@ -352,6 +350,51 @@
   }
   .mobile-mastery-tool-bottom {
     width: 900px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .mobile-header {
+    padding: 160px 20px 0px 40px;
+  }
+  .mobile-header-left {
+    width: 50%;
+  }
+  .mobile-image1 {
+    height: 240px;
+  }
+  .mobile-header-part2 {
+    padding: 40px 20px 20px 20px;
+  }
+  .mobile-header-part2-btn {
+    width: 280px;
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+  }
+  .mobile-header-part2-p {
+    padding: 20px 20px 20px 20px;
+  }
+  /*-----explore more---------------------*/
+  .mobile-findout-more {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+  }
+  /*-----mobile-lets all banner-------------------*/
+  .mobile-lets-all-banner {
+    padding: 30px 20px 30px 20px;
+  }
+  /*-----mobile cards----------------------*/
+  .mobile-cards {
+    padding: 20px 20px 80px 20px;
+  }
+  .mobile-card {
+    width: 230px;
+  }
+  /*-----mobile-mastery-tools-------------*/
+  .mobile-tools-logo {
+    margin: 20px 20px 40px 60px;
+  }
+  .mobile-mastery-tool-bottom {
+    width: 700px;
   }
 }
 @media only screen and (max-width: 835px) {
@@ -409,11 +452,11 @@
   }
   /*-----mobile-lets all banner-------------------*/
   .mobile-lets-all-banner {
-    padding: 30px 40px 30px 100px;
+    padding: 30px 20px 30px 20px;
   }
   /*-----mobile cards----------------------*/
   .mobile-cards {
-    padding: 40px 20px 20px 20px;
+    padding: 40px 0px 20px 0px;
   }
   .mobile-cards-banner {
     font-size: 1.4rem;
@@ -432,7 +475,7 @@
     padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: row;
-    width: 99%;
+    width: 100%;
   }
   .mobile-border-card-h2 {
     font-size: 1.8rem;
@@ -444,7 +487,7 @@
   }
   /*-----mobile-mastery-tools-------------*/
   .mobile-mastery-tools {
-    padding: 60px 40px 40px 40px;
+    padding: 60px 20px 40px 20px;
   }
   .mobile-tools-logo {
     margin: 20px 20px 20px 45px;
@@ -464,7 +507,7 @@
     margin-bottom: -70px;
   }
   .mobile-header-part2 {
-    padding: 100px 5px 0px 5px;
+    padding: 100px 5px 40px 5px;
   }
   /*-----findout more---------------------*/
   .mobile-findout-more-left-image {

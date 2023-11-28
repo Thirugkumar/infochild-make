@@ -116,9 +116,8 @@ function GraphicDesign() {
                 Why is infonits the only provide of graphic design.?
               </h2>
               <p className="graphic-exlore-more-right-p">
-                Designs are easy to understand but difficult to do..
-                <br />
-                don't Worry we are here to help you with outstanding designs!
+                Designs are easy to understand but difficult to do.. don't Worry
+                we are here to help you with outstanding designs!
               </p>
               <div className="graphic-exlore-more-right-li">
                 <li>
@@ -224,7 +223,7 @@ function GraphicDesign() {
             </div>
           </div>
           <div className="graphic-recent-works">
-            <h2 className="graphic-recent-works-sub">recent works</h2>
+            <h2 className="graphic-recent-works-sub secondary">recent works</h2>
             <h1 className="graphic-recent-works-heading primary">
               We are proud of what we do
             </h1>
@@ -236,7 +235,7 @@ function GraphicDesign() {
                 autoplay={{ delay: 2000, enableOnInteraction: true }}
                 pagination={false}
                 navigation={true}
-                slidesPerView={5}
+                slidesPerView={4}
                 /*breakpoints={
                   ({ 835: { slidesPerView: 5 } },
                   { 768: { slidesPerView: 5 } },
@@ -310,13 +309,7 @@ function GraphicDesign() {
                 autoplay={{ delay: 2500, enableOnInteraction: true }}
                 pagination={false}
                 navigation={true}
-                slidesPerView={5}
-                /*breakpoints={
-                  ({ 835: { slidesPerView: 5 } },
-                  { 768: { slidesPerView: 5 } },
-                  { 428: { slidesPerView: 2 } },
-                  { 390: { slidesPerView: 2 } })
-                }*/
+                slidesPerView={4}
                 loop={true}
                 className="mySwiper"
               >
@@ -391,7 +384,9 @@ function GraphicDesign() {
           </div>
           <div className="graphic-mastery-tools">
             <div className="graphic-mastery-tool-up">
-              <h2 className="graphic-mastery-tool-sub">mastery tools</h2>
+              <h2 className="graphic-mastery-tool-sub secondary">
+                mastery tools
+              </h2>
               <h1 className="graphic-mastery-tool-heading primary">
                 Exhibit of our proficiency tools
               </h1>

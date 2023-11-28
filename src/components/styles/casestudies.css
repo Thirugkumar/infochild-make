@@ -1,28 +1,21 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-* {
-  font-family: "Fira Sans Condensed", sans-serif;
-}
-
 .casestudies {
-  padding: 20px 0px 20px 0px;
+  padding: 40px 160px 40px 160px;
   width: 100%;
 }
 
 .subtitle {
   position: relative;
   display: inline-flex;
-  color: #ff6600;
   font-size: 1.1rem;
   margin-bottom: 10px;
-  margin-left: 140px;
   text-transform: uppercase;
 }
 .case-sub-h4 span {
   display: inline-block;
   position: relative;
 }
-.case-sub-h4 span:after {
-  content: "\2712";
+.case-sub-h4 span::after {
+  content: "\2015";
   position: absolute;
   opacity: 100;
   top: 0;
@@ -32,38 +25,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 140px;
 }
 
 .case .case-left {
-  color: #003366;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
+  width: 60%;
 }
-
 .case .case-right {
   font-size: 1.1rem;
   color: black;
-  margin-right: 140px;
-  margin-top: -20px;
-}
-
-.case-left {
-  width: 60%;
-}
-
-.case-right {
+  margin-top: -40px;
   width: 60%;
   line-height: 30px;
 }
-
 .c-image {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
-  margin-left: 140px;
-  margin-right: 140px;
 }
 
 .cards .case-card-img {
@@ -141,35 +121,35 @@
   transform: scale(0.9);
   transition: all 0.3s ease;
 }
-
+@media only screen and (max-width: 2560px) {
+  .casestudies {
+    width: 100%;
+    padding: 40px 660px 40px 660px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .casestudies {
+    padding: 40px 180px 40px 180px;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .casestudies {
     width: 100%;
+    padding: 40px 40px 40px 40px;
   }
   .subtitle {
     margin: 0;
-    padding-left: 40px;
     font-size: 1.2rem;
   }
-  .case {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-  }
   .case .case-left {
-    width: 90%;
-    margin-left: -40px;
     margin-bottom: 30px;
     font-size: 2.5rem;
   }
   .case .case-right {
-    width: 90%;
-    margin-left: 100px;
     font-size: 1.3rem;
   }
   .c-image {
-    margin: 10px 30px 0px 30px;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .cards .case-card-img {
     display: flex;
@@ -188,15 +168,23 @@
     height: 300px;
   }
 }
-
+@media only screen and (max-width: 1024px) {
+  .casestudies {
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+  }
+  .case .case-right {
+    font-size: 1.1rem;
+  }
+}
 @media only screen and (max-width: 835px) {
   .casestudies {
     width: 100%;
+    padding: 40px 20px 40px 20px;
   }
   .subtitle {
     margin: 0;
-    padding: 0px 0px 0px 20px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .case {
     display: flex;
@@ -205,18 +193,12 @@
   }
   .case .case-right {
     font-size: 1.3rem;
-    width: 90%;
-    margin-left: 100px;
+    width: 100%;
   }
   .case .case-left {
-    font-size: 2.2rem;
-    width: 90%;
-    margin-left: -40px;
-  }
-
-  .c-image {
-    margin: 10px 10px 0px 10px;
-    justify-content: space-around;
+    font-size: 2.6rem;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
   }
   .cards .case-card-img {
     display: flex;
@@ -246,25 +228,13 @@
 
 @media only screen and (max-width: 428px) {
   .casestudies {
-    width: 100%;
-  }
-  .subtitle {
-    padding: 0px 0px 0px 100px;
-    text-align: center;
-    text-decoration: underline;
-  }
-  .case {
-    padding: 0px 0px 0px 10px;
+    padding: 40px 10px 40px 10px;
   }
   .case .case-right {
     font-size: 1.1rem;
-    padding-left: 20px;
-    text-align: center;
   }
   .case .case-left {
-    font-size: 2rem;
-    padding-left: 20px;
-    text-align: center;
+    font-size: 2.3rem;
   }
   .c-image {
     margin: 10px 10px 0px 10px;

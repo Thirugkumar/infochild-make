@@ -93,7 +93,7 @@ function SoftwareDevelopment() {
                 src={software}
                 className="software-findout-more-left-image"
                 alt="software"
-                height={350}
+                height={300}
               />
             </div>
             <div className="software-findout-more-right">

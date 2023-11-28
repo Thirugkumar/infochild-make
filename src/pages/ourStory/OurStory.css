@@ -1,15 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .infonits-family-pic {
   padding: 100px 10px 10px 10px;
   width: 100%;
 }
 .ourstory-story {
-  padding: 40px 140px 20px 140px;
+  padding: 40px 180px 20px 180px;
 }
 .ourstory-sub {
   text-transform: uppercase;
@@ -61,7 +55,21 @@
   font-size: 25px;
   padding: 18px 0px 0px 20px;
 }
-
+@media only screen and (max-width: 1280px) {
+  .ourstory-story {
+    padding: 10px 40px 10px 40px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .ourstory-story {
+    padding: 10px 20px 10px 20px;
+  }
+  .vertical-timeline-element i {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0px 0px 12px;
+  }
+}
 @media only screen and (max-width: 835px) {
   .ourstory-story {
     padding: 10px 20px 10px 20px;

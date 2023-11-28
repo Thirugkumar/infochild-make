@@ -1,7 +1,7 @@
 import React from "react";
 import "./OurWorks.css";
 import our_map1 from "../../assets/page-image/our_map.png";
-import Gallery from "./Gallery";
+import OurWorkGallery from "./OurWorkGallery";
 
 export default function Ourworks() {
   return (
@@ -25,7 +25,7 @@ export default function Ourworks() {
             className="our-works-head-map-img2"
           />
         </div>
-        <Gallery />
+        <OurWorkGallery />
       </div>
     </>
   );

@@ -1,11 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .testimonials {
-  background: #003366;
-  padding: 40px 140px 40px 140px;
+  padding: 40px 160px 40px 160px;
+  overflow: hidden;
 }
 
 .section-head {
@@ -14,10 +9,9 @@
 
 .test-head-left {
   width: 45%;
-  margin-left: 40px;
 }
 .test-sub {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background: none;
   border-width: 2px;
   border-style: solid;
@@ -29,13 +23,13 @@
   padding-top: 6px;
 }
 .test-head-left .test-heading {
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   color: #ffffff;
   margin-top: 10px;
 }
 
 .test-head-right {
-  width: 55%;
+  width: 60%;
 }
 
 .t-companies {
@@ -44,8 +38,7 @@
   border-radius: 25px;
   background-color: #f2f2f2;
   padding: 6px 0px 0px 0px;
-  margin-left: 220px;
-  margin-bottom: 20px;
+  margin: 0px 0px 20px 300px;
 }
 .t-companies .t-com-imgs {
   text-align: center;
@@ -57,29 +50,28 @@
 .t-r-mssg {
   color: #ffffffdc;
   margin-bottom: 40px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .testimonials-item {
-  width: 1030px;
+  width: 1200px;
   display: flex;
   margin: auto;
 }
 
 .t-card {
   text-align: center;
-  width: 510px;
+  width: 590px;
   height: 240px;
   border-radius: 15px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 30px;
-  margin-left: 260px;
-  padding: 20px 30px;
+  margin-left: 305px;
+  padding: 20px 20px;
   position: relative;
   background: rgb(255, 255, 255);
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
 }
-
 .t-card .t-card-imgs {
   height: 100px;
   width: 100px;
@@ -109,34 +101,71 @@
   text-transform: capitalize;
 }
 /*responsive design*/
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 2560px) {
   .testimonials {
-    padding: 20px 20px 20px 20px;
+    padding: 40px 660px 40px 660px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .testimonials {
+    padding: 40px 180px 40px 180px;
+  }
+  .testimonials-item {
+    width: 1180px;
+  }
+  .t-card {
+    width: 570px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .testimonials {
+    padding: 40px 40px 40px 40px;
   }
   .test-head-right {
-    width: 70%;
+    width: 60%;
+  }
+  .testimonials-item {
+    width: 1180px;
+  }
+  .t-card {
+    width: 570px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .testimonials {
+    padding: 40px 20px 40px 20px;
+  }
+  .t-companies {
+    margin-left: 200px;
   }
   .testimonials-item {
     width: 980px;
   }
   .t-card {
-    width: 475px;
+    width: 480px;
+    height: 200px;
+    margin-left: 250px;
+  }
+  .t-card .t-card-imgs {
+    left: 30px;
   }
 }
 @media only screen and (max-width: 835px) {
+  .testimonials {
+    padding: 40px 20px 40px 20px;
+  }
   .test-head-right {
     width: 50%;
   }
   .t-companies {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .testimonials-item {
     width: 700px;
   }
   .t-card {
     width: 340px;
-    height: 320px;
+    height: 300px;
     margin-left: 180px;
   }
   .t-card .t-card-imgs {
@@ -152,11 +181,16 @@
     font-size: 0.9rem;
   }
   .t-card .t-card-p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 5px;
+    line-height: 25px;
   }
 }
 @media only screen and (max-width: 429px) {
+  .testimonials {
+    padding: 40px 10px 40px 10px;
+    overflow: hidden;
+  }
   .section-head {
     display: flex;
     flex-direction: column;
@@ -167,34 +201,32 @@
     width: 100%;
   }
   .test-heading {
-    text-align: center;
+    font-size: 2.3rem;
   }
   .test-head-right {
     width: 100%;
-    text-align: center;
   }
   .t-companies {
-    margin: 15px;
+    display: none;
   }
   .testimonials-item {
-    width: 400px;
+    width: 780px;
     margin: 0;
     padding: 0;
   }
   .t-card {
-    width: 198px;
-    height: 400px;
-    margin-left: 100px;
+    height: 250px;
+    margin-left: 230px;
   }
   .t-card .t-card-imgs {
     height: 100px;
     width: 100px;
     top: -50px;
-    left: 50px;
+    left: 120px;
   }
   .t-card .t-card-h3 {
     margin-top: 40px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 0;
   }
   .t-card .t-card-h5 {
@@ -208,13 +240,27 @@
 }
 @media only screen and (max-width: 391px) {
   .testimonials-item {
-    width: 360px;
+    width: 780px;
     margin: 0;
     padding: 0;
   }
   .t-card {
-    width: 178px;
-    height: 450px;
-    margin-left: 90px;
+    width: 370px;
+    height: 250px;
+    margin-left: 195px;
+    padding: 20px 10px 10px 10px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .testimonials-item {
+    width: 780px;
+    margin: 0;
+    padding: 0;
+  }
+  .t-card {
+    width: 320px;
+    height: 250px;
+    margin-left: 205px;
+    padding: 20px 10px 10px 15px;
   }
 }

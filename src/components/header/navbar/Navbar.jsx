@@ -92,11 +92,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter_who}
             onMouseLeave={onMouseLeave_who}
           >
-            <Link
-              to="/who-we-are/"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               Who We Are <i className="fa fa-caret-down" />
             </Link>
             {whoDrop && <WhoDropdown />}
@@ -111,7 +107,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter_more}
             onMouseLeave={onMouseLeave_more}
           >
-            <Link to="/more/" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               More <i className="fa fa-caret-down" />
             </Link>
             {moreDrop && <MoreDropdown />}

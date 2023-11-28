@@ -1,11 +1,7 @@
 .whatWeDo {
-  background-color: #003366;
-  height: 630px;
-  padding: 30px 140px 0px 140px;
+  padding: 60px 160px 40px 160px;
 }
-
 .wt-subtitles {
-  color: #ee5f00;
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -15,7 +11,7 @@
   position: relative;
 }
 .wt-subtitles span:after {
-  content: "\2712";
+  content: "\2015";
   position: absolute;
   opacity: 100;
   top: 0;
@@ -35,14 +31,16 @@
 }
 .wt-heading p {
   color: #fff;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2.6rem;
+  font-weight: 500;
   line-height: 50px;
 }
 
 .wt-text p {
   color: #fff;
   margin-top: -10px;
+  line-height: 30px;
+  font-size: 1.2rem;
 }
 .wt-info .for-tap {
   display: none;
@@ -50,44 +48,52 @@
 
 .wt-cards {
   display: flex;
-  padding: 0;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
 .wt-cards .card-box {
   display: inline-block;
-  width: 280px;
+  width: 260px;
   height: 400px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  margin: 0 auto;
   background-color: #002041;
-  padding: 30px;
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
+}
+.wt-card .title {
+  padding-top: 20px;
+}
+.card-box:hover {
+  background-color: #000e1b;
 }
 .card-box .layer {
   z-index: 1;
   position: absolute;
-  top: calc(100% - 3px);
-  height: 100%;
+  top: calc(100%);
+  height: 2%;
   width: 100%;
   left: 0;
-  background: linear-gradient(235deg, #ff6600, #000000 55%);
   transition: 0.5s;
 }
 .card-box .wt-card {
   z-index: 2;
   position: relative;
 }
-
 .card-box:hover .layer {
-  top: 0;
+  top: 98%;
 }
-
-.card-box .wt-card .title {
+.card-box:hover .title {
+  color: #ff5f35;
+}
+.card-box:hover .w-image {
+  transition: all 0.3s;
+  transform: scale(0.9);
+}
+.wt-card .title {
   color: white;
   text-align: center;
   font-weight: 600;
@@ -97,30 +103,34 @@
 }
 .card-box .wt-card .w-image {
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 50px;
   border-radius: 30%;
   overflow: hidden;
-  border: 0px solid white;
 }
 
 .card-box .wt-card .subt {
   color: #fff;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 1rem;
+  line-height: 25px;
 }
 
 .wt-cards .orange {
   padding: 0;
-  background: linear-gradient(235deg, #ff6600, #000000 55%);
+  background-color: #ff5f35;
 }
-
+.wt-cards .orange:hover .wt-card-btn {
+  color: #ffffff;
+  background-color: #011f3d;
+  transition: all 0.5s;
+}
 .wt-card .wt-card-btn {
   text-transform: uppercase;
   color: #003366;
-  border-radius: 30%;
+  border-radius: 25px;
   border-style: none;
-  height: 110px;
+  height: 60px;
   width: 220px;
   font-size: 1.4rem;
   font-weight: 600;
@@ -132,7 +142,6 @@
   color: #ffffff;
   background-color: #011f3d;
   transition: all 0.1s ease-in;
-  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.425);
 }
 
 .wt-card .mssg {
@@ -141,17 +150,41 @@
   margin-top: 15px;
   color: #ffffff;
 }
+.for-tap {
+  display: none;
+}
+@media only screen and (max-width: 2560px) {
+  .whatWeDo {
+    padding: 40px 660px 40px 660px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .whatWeDo {
+    padding: 40px 180px 40px 180px;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .whatWeDo {
-    padding: 30px 40px 0px 40px;
+    padding: 40px 40px 40px 40px;
   }
   .wt-info .for-tap {
     display: none;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .whatWeDo {
+    padding: 40px 20px 40px 20px;
+  }
+  .wt-cards .card-box {
+    width: 240px;
+  }
+  .wt-card .wt-card-btn {
+    width: 200px;
+  }
+}
 @media only screen and (max-width: 835px) {
   .whatWeDo {
-    padding: 20px 20px 40px 20px;
+    padding: 40px 20px 40px 20px;
     height: auto;
   }
   .wt-info {
@@ -162,26 +195,27 @@
     width: 100%;
   }
   .wt-text {
-    font-size: 1.3rem;
     width: 100%;
     margin-top: 20px;
+    opacity: 80%;
   }
-  .wt-info .for-tap {
+  .for-tap {
     text-transform: uppercase;
     display: block;
-    margin: 10px 200px 10px 200px;
-    height: 60px;
-    border-radius: 25%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 60px 20px 60px;
+    border-radius: 25px;
     color: #fff;
     font-weight: bold;
     font-size: 1.4rem;
     border-style: none;
-    background: linear-gradient(150deg, #ff6600, #000000 70%);
+    background: linear-gradient(150deg, #ff5f35, #000000 70%);
   }
   .for-tap:hover {
     transform: scale(0.95);
     transition: all 1s ease;
-    background: linear-gradient(300deg, #000000, #ff6600 70%);
+    background: linear-gradient(300deg, #000000, #ff5f35 70%);
   }
   .wt-cards .orange {
     display: none;
@@ -201,12 +235,14 @@
   }
 }
 @media only screen and (max-width: 429px) {
-  .wt-info {
-    text-align: center;
+  .whatWeDo {
+    padding: 40px 10px 40px 10px;
   }
-  .wt-info .for-tap {
-    margin: 20px 0px 10px 50px;
-    width: 280px;
+  .wt-heading p {
+    font-size: 2.3rem;
+  }
+  .for-tap {
+    width: 100%;
   }
   .for-tap:hover {
     transform: scale(0.95);
@@ -218,9 +254,10 @@
     flex-direction: column;
   }
   .wt-cards .card-box {
-    width: 350px;
-    height: 430px;
+    width: 100%;
+    height: fit-content;
     margin-bottom: 10px;
+    padding: 40px 60px 40px 60px;
   }
   .card-box .wt-card .w-image {
     width: 250px;

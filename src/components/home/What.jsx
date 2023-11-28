@@ -6,10 +6,10 @@ import card3 from "../../assets/images/paint.png";
 
 function What() {
   return (
-    <div className="whatWeDo">
-      <div className="wt-subtitles">
+    <div className="whatWeDo primarybg">
+      <div className="wt-subtitles secondary">
         <h4>
-          <span>What We Do!-</span>
+          <span>What We Do! -</span>
         </h4>
       </div>
       <section className="wt-info">
@@ -23,17 +23,12 @@ function What() {
             cutting-edge technology and global perspective.
           </p>
         </div>
-        {/* --this "for-tap" button only available for Tap and Mobile view-- */}
-        <button className="for-tap">
-          Explore more &nbsp;
-          <i className="fa fa-arrow-right" />
-        </button>
       </section>
 
       {/*card*/}
       <div className="wt-cards">
         <div className="card-box">
-          <div className="layer"></div>
+          <div className="layer secondarybg"></div>
           <div className="wt-card">
             <h1 className="title">Web Application Development</h1>
             <div className="w-image">
@@ -45,7 +40,7 @@ function What() {
           </div>
         </div>
         <div className="card-box">
-          <div className="layer"></div>
+          <div className="layer secondarybg"></div>
           <div className="wt-card">
             <h1 className="title">Mobile App Development</h1>
             <div className="w-image">
@@ -58,7 +53,7 @@ function What() {
           </div>
         </div>
         <div className="card-box">
-          <div className="layer"></div>
+          <div className="layer secondarybg"></div>
           <div className="wt-card">
             <h1 className="title">Graphic Designing Work</h1>
             <div className="w-image">
@@ -70,7 +65,7 @@ function What() {
           </div>
         </div>
         <div className="card-box orange">
-          <div className="wt-card ">
+          <div className="wt-card">
             <button className="wt-card-btn">
               Read More &nbsp; <i class="fa fa-arrow-right" />
             </button>
@@ -78,6 +73,11 @@ function What() {
           </div>
         </div>
       </div>
+      {/* --this "for-tap" button only available for Tap and Mobile view-- */}
+      <button className="for-tap">
+        Explore more &nbsp;
+        <i className="fa fa-arrow-right" />
+      </button>
     </div>
   );
 }

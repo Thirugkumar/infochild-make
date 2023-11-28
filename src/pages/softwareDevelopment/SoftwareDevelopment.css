@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 .software-header {
   display: flex;
   flex-direction: row;
-  padding: 160px 140px 0px 140px;
+  padding: 160px 180px 0px 180px;
 }
 .software-header-left {
   width: 45%;
@@ -82,7 +80,7 @@
 /*-----findout more----------------------------------------------------*/
 
 .software-findout-more {
-  padding: 20px 140px 40px 100px;
+  padding: 20px 180px 40px 180px;
   display: flex;
   background-color: #f3f3f3;
 }
@@ -138,7 +136,7 @@
 /*-----software-lets all banner---------------------------------------------------*/
 
 .software-lets-all-banner {
-  padding: 30px 300px 30px 240px;
+  padding: 30px 180px 30px 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -167,7 +165,7 @@
 /*-----software cards----------------------------------------------------*/
 
 .software-cards {
-  padding: 40px 140px 80px 140px;
+  padding: 40px 180px 80px 180px;
 }
 .software-cards-banner {
   align-items: center;
@@ -259,7 +257,7 @@
 /*-----software-mastery-tools----------------------------------------------------*/
 /*-----software-mastery-tools----------------------------------------------------*/
 .software-mastery-tools {
-  padding: 40px 140px 20px 140px;
+  padding: 40px 180px 20px 180px;
   background-color: rgb(240, 238, 238);
 }
 .software-mastery-tool-up .software-mastery-tool-sub {
@@ -299,7 +297,7 @@
 
 @media only screen and (max-width: 1280px) {
   .software-header {
-    padding: 160px 40px 0px 80px;
+    padding: 160px 40px 0px 40px;
   }
   .software-header-right {
     width: 70%;
@@ -317,20 +315,19 @@
   }
   /*-----explore more---------------------*/
   .software-findout-more {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 40px 20px 40px;
     display: flex;
   }
   /*-----software-lets all banner-------------------*/
   .software-lets-all-banner {
-    padding: 30px 200px 30px 100px;
+    padding: 30px 40px 30px 40px;
   }
   /*-----software cards----------------------*/
-
   .software-cards {
-    padding: 20px 80px 80px 80px;
+    padding: 40px 40px 80px 40px;
   }
   .software-card {
-    width: 250px;
+    width: 270px;
   }
   .software-border-card-round {
     width: 180px;
@@ -351,6 +348,53 @@
   }
   .software-mastery-tool-bottom {
     width: 900px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .software-header {
+    padding: 160px 20px 0px 20px;
+  }
+  .software-header-right {
+    width: 50%;
+  }
+  .software-image1 {
+    height: 240px;
+    margin-top: 40px;
+  }
+  .software-header-part2 {
+    padding: 20px 0px 20px 0px;
+  }
+  .software-header-part2-btn {
+    width: 300px;
+    height: 70px;
+    margin: 10px;
+  }
+  /*-----explore more---------------------*/
+  .software-findout-more {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+  }
+  .software-findout-more-left-image {
+    height: 250px;
+    padding: 60px 0px 0px 0px;
+  }
+  /*-----software-lets all banner-------------------*/
+  .software-lets-all-banner {
+    padding: 30px 20px 30px 20px;
+  }
+  /*-----software cards----------------------*/
+  .software-cards {
+    padding: 40px 20px 80px 20px;
+  }
+  .software-card {
+    width: 230px;
+  }
+  /*-----software-mastery-tools-------------*/
+  .software-tools-logo {
+    margin: 20px 20px 40px 80px;
+  }
+  .software-mastery-tool-bottom {
+    width: 700px;
   }
 }
 @media only screen and (max-width: 835px) {
@@ -377,9 +421,14 @@
     padding: 40px 20px 20px 20px;
     background-color: #f3f3f3;
   }
+  .software-header-part2-btn {
+    width: 240px;
+    font-size: 1.1rem;
+    padding: 10px 5px 10px 5px;
+  }
   /*-----findout more---------------------*/
   .software-findout-more {
-    padding: 0px 20px 20px 20px;
+    padding: 40px 10px 20px 10px;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -405,10 +454,14 @@
     align-items: center;
     margin: auto;
     display: block;
+    height: 350px;
   }
   /*-----software-lets all banner-------------------*/
   .software-lets-all-banner {
-    padding: 30px 40px 30px 100px;
+    padding: 30px 20px 30px 20px;
+  }
+  .software-lets-all-banner-h2 {
+    width: 60%;
   }
   /*-----software cards----------------------*/
   .software-cards {
@@ -452,6 +505,11 @@
     width: 500px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .software-header-part2-btn {
+    width: 200px;
+  }
+}
 @media only screen and (max-width: 428px) {
   .software-image1 {
     width: 100%;
@@ -463,7 +521,13 @@
     margin-bottom: -70px;
   }
   .software-header-part2 {
-    padding: 100px 5px 0px 5px;
+    padding: 100px 5px 40px 5px;
+  }
+  .software-header-part2-p {
+    padding: 10px 10px 10px 10px;
+  }
+  .software-header-part2-btn {
+    width: 90%;
   }
   /*-----findout more---------------------*/
   .software-findout-more-left-image {
@@ -484,12 +548,15 @@
   /*-----software-lets all banner-------------------*/
   .software-lets-all-banner {
     display: flex;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
     padding: 20px 5px 20px 5px;
   }
+  .software-lets-all-banner-h2 {
+    width: 100%;
+  }
   .software-lets-all-banner-btn {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   /*-----software cards----------------------*/
   .software-cards {

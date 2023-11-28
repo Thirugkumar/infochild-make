@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import srilanka from "../../assets/page-image/srilanka.webp";
 import london from "../../assets/page-image/london.webp";
+//import Calendar from "./Calandly";
 
 function Contact() {
   return (

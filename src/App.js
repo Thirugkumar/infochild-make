@@ -4,9 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/homes/Home";
 import Navbar from "./components/header/navbar/Navbar";
 import Whatwedo from "./pages/whatWeDo/Whatwedo";
-import More from "./pages/more/More";
 import Ourworks from "./pages/ourWorks/Ourworks";
-import Whoweare from "./pages/whoWeAre/Whoweare";
 import LetsTalk from "./pages/letsTalk/LetsTalk";
 import GraphicDesign from "./pages/graphicsDesign/GraphicDesign";
 import WebDevelopment from "./pages/webDevelopment/WebDevelopment";
@@ -31,10 +29,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact Component={Home} />
-          <Route path="/who-we-are" Component={Whoweare} />
           <Route path="/services" Component={Whatwedo} />
           <Route path="/our-works" Component={Ourworks} />
-          <Route path="/more" Component={More} />
           <Route path="/lets-talk" Component={LetsTalk} />
           <Route path="/service/graphic-designs" Component={GraphicDesign} />
           <Route path="/service/web-development" Component={WebDevelopment} />

@@ -14,7 +14,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 function Testimonial({ stars }) {
   return (
-    <div class="testimonials">
+    <div class="testimonials primarybg">
       <div className="section-head">
         <div className="test-head-left">
           <h2 className="test-sub">TESTIMONIALS</h2>
@@ -39,7 +39,7 @@ function Testimonial({ stars }) {
           spaceBetween={4}
           centeredSlides={true}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
-          pagination={{ dynamicBullets: true }}
+          pagination={{ dynamicBullets: false }}
           navigation={false}
           slidesPerView={2}
           loop={true}

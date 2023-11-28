@@ -1,14 +1,11 @@
-body {
-  background-color: rgb(255, 255, 255);
-}
 .maps {
   display: flex;
   width: 100%;
-  padding: 40px 0px 20px 0px;
+  padding: 40px 160px 20px 160px;
+  overflow: hidden;
 }
 .map-subtitle {
   font-size: 1.2rem;
-  color: #ff6600;
   letter-spacing: 1px;
 }
 .map-subtitle span {
@@ -16,23 +13,21 @@ body {
   position: relative;
 }
 .map-subtitle span:after {
-  content: "\2712";
+  content: "\2015";
   position: absolute;
   opacity: 50%;
   top: 0;
   right: -25px;
 }
 .map-right .map-title {
-  color: #003366;
   font-size: 2.6rem;
   margin-top: 10px;
 }
 .maps .map-text {
   font-size: 1.3rem;
-  color: black;
+  margin-top: 20px;
 }
 .map {
-  margin-left: 150px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -41,16 +36,15 @@ body {
 }
 
 .map-right {
-  padding: 60px 120px 0px 20px;
+  padding: 60px 0px 0px 40px;
 }
 .map-btn {
-  margin-top: 20px;
+  margin-top: 40px;
   border: none;
   border-radius: 10px;
   height: 50px;
   width: 200px;
   color: white;
-  background-color: #ff6600;
   font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
@@ -71,36 +65,46 @@ body {
   transition: all 0.3s ease;
   filter: sepia(200) saturate(20);
 }
-
-@media only screen and (max-width: 1280px) {
-  .map {
+@media only screen and (max-width: 2560px) {
+  .maps {
     margin: 0;
-    padding: 20px 10px 20px 40px;
+    padding: 40px 660px 40px 660px;
   }
-  .indi {
-    margin: 15px 0px 0px 40px;
+}
+@media only screen and (max-width: 1600px) {
+  .maps {
+    padding: 40px 180px 40px 180px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .maps {
+    margin: 0;
+    padding: 40px 40px 40px 40px;
   }
   .map-right {
-    padding: 30px 40px 20px 10px;
+    padding: 80px 0px 0px 80px;
   }
   .map-right .map-title {
     font-size: 2.5rem;
   }
   .maps .map-text {
     font-size: 1.1rem;
+    line-height: 30px;
   }
 }
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 1024px) {
   .maps {
     display: flex;
     flex-direction: column;
+    padding: 40px 20px 40px 20px;
   }
   .map {
     width: 100%;
-    padding: 20px 30px 20px 100px;
+    text-align: center;
+    align-items: center;
   }
   .indi {
-    margin: 15px 0px 0px 100px;
+    margin: 0px 0px 0px 200px;
   }
   .map-right {
     text-align: center;
@@ -111,31 +115,111 @@ body {
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 835px) {
   .maps {
     display: flex;
     flex-direction: column;
+    padding: 40px 20px 40px 20px;
   }
   .map {
-    width: 90%;
-    padding: 0px 0px 0px 40px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .indi {
+    margin: 0px 0px 0px 110px;
+  }
+  .map-right {
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+  .map-right .map-text {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .indi {
+    margin: 0px 0px 0px 75px;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .maps {
+    padding: 40px 10px 40px 10px;
+  }
+  .map {
+    width: 100%;
     height: 200px;
   }
   .indi {
     height: 50px;
-    padding: 0px 0px 20px 40px;
-    margin: 0px;
+    padding: 0px 0px 20px 20px;
+    margin: 0;
   }
   .map-left img {
     width: 100%;
     height: 200px;
   }
   .map-right {
-    width: 85%;
-    margin-left: 30px;
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
   }
-
+  .map-subtitle {
+    font-size: 1.1rem;
+    text-align: start;
+  }
+  .map-right .map-title {
+    font-size: 2rem;
+    text-align: start;
+  }
+  .map-right .map-text {
+    font-size: 1.2rem;
+    text-align: start;
+  }
+  .map-btn {
+    align-items: center;
+    text-align: center;
+  }
+  .small .sl {
+    margin: -85px 0px 0px -142px;
+  }
+  .small .us {
+    margin: -70px 0px 0px -40px;
+  }
+  .small .can {
+    margin: -60px 0px 0px -30px;
+  }
+  .small .aus {
+    margin: -100px 0px 0px -160px;
+  }
+  .small .uk {
+    margin: -65px 0px 0px -100px;
+  }
+  .small .swiss {
+    margin: -45px 0px 0px -105px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .maps {
+    padding: 40px 10px 40px 10px;
+  }
+  .map-right {
+    width: 100%;
+  }
+  .map-subtitle {
+    font-size: 0.9rem;
+    text-align: start;
+  }
+  .map-right .map-title {
+    font-size: 2rem;
+    text-align: start;
+  }
+  .map-right .map-text {
+    font-size: 1.1rem;
+    text-align: start;
+    margin-top: 0px;
+  }
   .small .sl {
     margin: -85px 0px 0px -162px;
   }
@@ -155,17 +239,16 @@ body {
     margin: -45px 0px 0px -125px;
   }
 }
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 361px) {
   .map {
-    width: 90%;
-    padding: 20px 0px 0px 20px;
+    width: 100%;
+    padding: 20px 5px 0px 5px;
   }
   .indi {
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 0px 0px;
   }
   .map-right {
-    width: 80%;
-    margin-left: 30px;
-    margin-top: -30px;
+    width: 100%;
+    margin-top: 10px;
   }
 }

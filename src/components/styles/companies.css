@@ -20,10 +20,21 @@
   filter: none;
   transform: scale(1.1);
 }
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2560px) {
   .c-imgs {
     margin: 0;
+    padding: 0px 660px 0px 660px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .c-imgs {
+    padding: 0px 160px 0px 160px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .c-imgs {
+    margin: 0;
+    padding: 0px 20px 0px 20px;
   }
 }
 @media only screen and (max-width: 835px) {

@@ -1,14 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .our-team {
   background-color: aliceblue;
   margin-bottom: 20px;
 }
 .team-profile {
-  padding: 100px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 }
 .ourteamimg {
   width: 100%;
@@ -29,7 +24,7 @@
 }
 .meet-head h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 10px 0px 8px 0px;
 }
 .meet-head p {
@@ -131,23 +126,63 @@
   color: #ff6633;
   transition: all 0.3s;
 }
-
+@media only screen and (max-width: 1280px) {
+  .team {
+    padding: 10px 30px 20px 30px;
+  }
+  .team-rows {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .meet-head {
+    padding: 60px 40px 0px 40px;
+  }
+  .team-card {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+  }
+  .team-card-imgs {
+    width: 260px;
+  }
+  .name-card {
+    width: 280px;
+    top: 240px;
+  }
+  .overlay {
+    left: 22px;
+    right: 0;
+    width: 240px;
+  }
+  .team-card:hover .overlay {
+    height: 45%;
+  }
+  .team-card .card-icon {
+    left: 250px;
+    top: 310px;
+    position: absolute;
+    font-size: 2.5rem;
+    color: rgba(105, 105, 105, 0.451);
+  }
+}
 /*-----------responsive-------*/
 @media only screen and (max-width: 835px) {
   .meet-head {
-    padding: 40px 30px 10px 30px;
+    padding: 40px 20px 10px 20px;
   }
   .team-card {
-    height: 320px;
+    height: 300px;
     width: 240px;
     overflow: hidden;
+    margin: 5px;
   }
   .team-card-imgs {
     width: 220px;
   }
   .name-card {
     width: 238px;
-    top: 240px;
+    top: 220px;
     height: 80px;
   }
   .overlay {
@@ -168,39 +203,46 @@
     opacity: 90%;
   }
   .team-card .card-icon {
-    left: 200px;
-    top: 295px;
+    left: 195px;
+    top: 280px;
     font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 768px) {
   .team-card-imgs {
-    width: 200px;
+    width: 205px;
+  }
+  .team-card .card-icon {
+    left: 190px;
+  }
+  .team-card {
+    margin: 5px;
   }
 }
 @media only screen and (max-width: 428px) {
   .meet-head {
-    padding: 40px 20px 10px 20px;
+    padding: 40px 10px 10px 10px;
   }
   .team-rows {
     display: flex;
     flex-direction: column;
   }
   .team-card {
-    height: 400px;
-    width: 320px;
+    height: 420px;
+    width: 100%;
   }
   .team-card-imgs {
-    width: 300px;
+    width: 350px;
   }
   .name-card {
-    width: 320px;
-    top: 300px;
+    width: 100%;
+    top: 320px;
     height: 100px;
   }
   .overlay {
-    left: 20px;
-    width: 280px;
+    left: 18px;
+    width: 330px;
+    height: 150px;
   }
   .team-card:hover .overlay {
     height: 40%;
@@ -214,8 +256,41 @@
     left: 20px;
   }
   .team-card .card-icon {
-    left: 270px;
+    left: 290px;
     top: 350px;
     font-size: 3.5rem;
+    color: #ff6633;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .team-card-imgs {
+    width: 310px;
+    opacity: 100%;
+  }
+  .overlay {
+    left: 20px;
+    width: 292px;
+  }
+  .team-card .card-icon {
+    left: 290px;
+    top: 380px;
+    font-size: 3.5rem;
+    color: #ff6633;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .team-card-imgs {
+    width: 280px;
+    opacity: 100%;
+  }
+  .overlay {
+    left: 20px;
+    width: 260px;
+  }
+  .team-card .card-icon {
+    left: 270px;
+    top: 380px;
+    font-size: 3.5rem;
+    color: #ff6633;
   }
 }

@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 .graphic-header {
   display: flex;
   flex-direction: row;
-  padding: 200px 140px 0px 140px;
+  padding: 200px 160px 100px 180px;
+  position: relative;
+  overflow: hidden;
 }
 .graphic-header-left {
   width: 40%;
@@ -38,10 +38,10 @@
   transition: all 0.3s ease-in-out;
 }
 .graphic-header-right {
-  width: 50%;
+  width: 55%;
 }
 .graphic-image1 {
-  position: relative;
+  position: absolute;
   border-top-left-radius: 30px;
   box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.75);
   bottom: -4px;
@@ -49,16 +49,16 @@
 .graphic-header-right .graphic-image2 {
   position: absolute;
   z-index: 1;
-  left: 55%;
-  bottom: 285px;
+  right: 500px;
+  bottom: 0px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.75);
 }
 .graphic-header-right .graphic-image3 {
   position: absolute;
-  left: 60%;
-  bottom: 285px;
+  right: 200px;
+  bottom: 0px;
   border-top-right-radius: 20px;
   box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.75);
 }
@@ -67,7 +67,7 @@
   padding: 40px 180px 40px 180px;
 }
 .graphic-header-part2-heading {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
 }
 .graphic-header-part2-p {
   font-size: 1.1rem;
@@ -97,7 +97,7 @@
 /*-----graphic-lets all banner---------------------------------------------------*/
 
 .graphic-lets-all-banner {
-  padding: 30px 300px 30px 240px;
+  padding: 30px 180px 30px 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,15 +125,15 @@
 /*-----explore more----------------------------------------------------*/
 
 .graphic-exlore-more {
-  padding: 20px 160px 30px 180px;
+  padding: 20px 180px 30px 180px;
   display: flex;
   background-color: #f3f3f3;
 }
 .graphic-exlore-more-left-image {
-  padding-top: 20px;
+  padding: 20px 0px 0px 0px;
 }
 .graphic-exlore-more-right {
-  padding: 40px 0px 0px 60px;
+  padding: 40px 0px 20px 60px;
 }
 .graphic-exlore-more-right-sub {
   border: solid 3px #ee5522d2;
@@ -142,8 +142,8 @@
   font-weight: 500;
 }
 .graphic-exlore-more-right-heading {
-  padding: 20px 0px 15px 0px;
-  font-size: 2.3rem;
+  padding: 20px 0px 10px 0px;
+  font-size: 2.6rem;
 }
 .graphic-exlore-more-right-p {
   opacity: 80%;
@@ -181,7 +181,7 @@
 /*-----graphic cards----------------------------------------------------*/
 
 .graphic-cards {
-  padding: 40px 140px 80px 140px;
+  padding: 40px 180px 80px 180px;
 }
 .graphic-cards-banner {
   align-items: center;
@@ -197,7 +197,7 @@
 }
 .graphic-cards-heading {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -273,7 +273,7 @@
 /*-----graphic-recent works----------------------------------*/
 /*-----graphic-recent works----------------------------------*/
 .graphic-recent-works {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 180px 40px 180px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 .graphic-recent-works-sub {
@@ -286,16 +286,15 @@
   padding: 2px 20px 2px 20px;
   margin: auto;
   font-size: 1.2rem;
-  color: #ff5319;
 }
 .graphic-recent-works-heading {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   margin-top: 20px;
 }
 .graphic-images-slider1 {
-  width: 99%;
+  width: 100%;
   display: flex;
   margin: auto;
   padding: 20px 0px 20px 0px;
@@ -318,13 +317,13 @@ div.swiper-button-next:hover {
   transition: all 0.3s;
 }
 .graphic-recent-work-image {
-  height: 260px;
-  width: 260px;
+  height: 280px;
+  width: 280px;
   border-radius: 15px;
 }
 .graphic-works {
   position: relative;
-  margin-left: 20px;
+  margin-left: 150px;
 }
 
 /*-----mastery-tools----------------------------------------------------*/
@@ -344,11 +343,10 @@ div.swiper-button-next:hover {
   padding: 2px 20px 2px 20px;
   margin: auto;
   font-size: 1.2rem;
-  color: #ff5319;
 }
 .graphic-mastery-tool-heading {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -372,20 +370,32 @@ div.swiper-button-next:hover {
   width: 80px;
 }
 
-/*-----------responsive------*/
+/*-----------responsive------
+@media only screen and (max-width: 2560px) {
+  .graphic-header {
+    padding: 200px 740px 0px 660px;
+  }
+  .graphic-header-right .graphic-image2 {
+    bottom: 883px;
+  }
+  .graphic-header-right .graphic-image3 {
+    bottom: 66%;
+    left: 58%;
+  }
+}
+------------------------------------*/
 
 @media only screen and (max-width: 1280px) {
   .graphic-header {
-    padding: 200px 40px 0px 80px;
-  }
-  .graphic-header-right {
-    width: 70%;
+    padding: 200px 40px 100px 80px;
   }
   .graphic-header-right .graphic-image2 {
-    bottom: 290px;
+    bottom: 0px;
+    right: 380px;
   }
   .graphic-header-right .graphic-image3 {
-    bottom: 38.8%;
+    bottom: 0px;
+    right: 100px;
   }
   .graphic-header-part2-btn {
     width: 280px;
@@ -428,6 +438,9 @@ div.swiper-button-next:hover {
     width: 210px;
     border-radius: 15px;
   }
+  .graphic-works {
+    margin-left: 120px;
+  }
   /*-----mastery-tools-------------*/
   .graphic-tools-logo {
     margin: 20px 20px 40px 100px;
@@ -436,9 +449,65 @@ div.swiper-button-next:hover {
     width: 900px;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .graphic-header {
+    padding: 160px 20px 80px 20px;
+  }
+  .graphic-header-left {
+    width: 50%;
+  }
+  .graphic-image1 {
+    height: 180px;
+  }
+  .graphic-image2 {
+    height: 240px;
+    top: 190px;
+    margin-right: -120px;
+  }
+  .graphic-image3 {
+    top: 250px;
+    height: 180px;
+    margin-right: -60px;
+  }
+  .graphic-header-part2 {
+    padding: 20px 0px 20px 0px;
+  }
+  .graphic-exlore-more {
+    padding: 20px 20px 20px 20px;
+  }
+  .graphic-exlore-more-left-image {
+    padding: 60px 0px 0px 0px;
+  }
+  .graphic-cards {
+    padding: 20px 30px 80px 30px;
+  }
+  .graphic-card {
+    width: 220px;
+  }
+  .graphic-recent-work-image {
+    height: 210px;
+    width: 210px;
+  }
+  .graphic-recent-works {
+    padding: 40px 20px 40px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .graphic-works {
+    margin-left: 140px;
+  }
+  .graphic-lets-all-banner {
+    padding: 30px 30px 30px 30px;
+  }
+  .graphic-tools-logo {
+    margin: 20px 20px 40px 80px;
+  }
+  .graphic-mastery-tool-bottom {
+    width: 720px;
+  }
+}
 @media only screen and (max-width: 835px) {
   .graphic-header {
-    padding: 120px 20px 0px 20px;
+    padding: 120px 20px 140px 20px;
     display: flex;
     flex-direction: column;
   }
@@ -452,52 +521,68 @@ div.swiper-button-next:hover {
     padding-bottom: 100px;
   }
   .graphic-image1 {
-    width: 300px;
-    height: 220px;
-    margin-left: 10px;
+    width: 260px;
+    height: 160px;
+    margin-left: 40px;
   }
   .graphic-image2 {
     z-index: 1;
-    top: 333px;
-    margin-left: -160px;
-    border-top-right-radius: 100px;
-    display: flex;
+    top: 320px;
+    margin-right: -50px;
   }
   .graphic-image3 {
-    margin: 0;
-    padding: 0;
-    top: 413px;
+    top: 400px;
     width: 300px;
-    height: 220px;
+    height: 180px;
     border-bottom-right-radius: 20px;
   }
   .graphic-header-part2 {
     text-align: center;
-    padding: 20px 40px 20px 40px;
-    background-color: #f3f3f3;
+    padding: 20px 0px 20px 0px;
+    background-color: hsl(0, 0%, 95%);
+  }
+  .graphic-header-part2-p {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .graphic-header-part2-btn {
+    padding: 10px 20px 10px 20px;
+    font-size: 1.1rem;
+    width: 240px;
+    height: 60px;
+    margin: 20px 10px 10px 10px;
+    justify-content: space-between;
   }
   /*-----explore more---------------------*/
   .graphic-exlore-more {
-    padding: 20px 20px 20px 20px;
+    padding: 10px 0px 20px 0px;
     display: flex;
     flex-direction: column-reverse;
   }
   .graphic-exlore-more-right {
-    padding: 40px 0px 0px 20px;
+    padding: 40px 0px 0px 0px;
     text-align: center;
+  }
+  .graphic-exlore-more-right-p {
+    font-size: 1.2rem;
   }
   .graphic-exlore-more-right-li {
     text-align: start;
     margin-left: 150px;
   }
+  .graphic-exlore-more-right-btn {
+    width: 90%;
+  }
   .graphic-exlore-more-left-image {
-    align-items: center;
-    margin: auto;
-    display: block;
+    height: 700px;
+    padding-left: 60px;
   }
   /*-----graphic-lets all banner-------------------*/
   .graphic-lets-all-banner {
-    padding: 30px 40px 30px 100px;
+    padding: 30px 40px 30px 40px;
+  }
+  .graphic-lets-all-banner-h2 {
+    width: 60%;
   }
   /*-----graphic cards----------------------*/
   .graphic-cards {
@@ -530,11 +615,11 @@ div.swiper-button-next:hover {
 
   /*-----graphic-recent works--------------*/
   .graphic-recent-work-image {
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
   }
   .graphic-works {
-    margin-left: 0px;
+    margin-left: 105px;
   }
   div.swiper-button-prev,
   div.swiper-button-next {
@@ -542,36 +627,91 @@ div.swiper-button-next:hover {
   }
   /*-----mastery-tools-------------*/
   .graphic-tools-logo {
-    margin: 20px 20px 20px 42px;
+    margin: 20px 20px 20px 46px;
+  }
+  .graphic-mastery-tool-bottom {
+    width: 550px;
+  }
+  .graphic-mastery-tool-up {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .graphic-header {
+    padding: 120px 10px 140px 10px;
+  }
+  .graphic-image2 {
+    margin-right: -90px;
+  }
+  .graphic-header-part2-btn {
+    padding: 10px 10px 10px 10px;
+    font-size: 1.1rem;
+    width: 220px;
+  }
+  /*-----explore more---------------------*/
+  .graphic-exlore-more-right {
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+  }
+  .graphic-exlore-more-right-btn {
+    width: 95%;
+  }
+  .graphic-exlore-more-left-image {
+    height: 600px;
+    padding-left: 100px;
+  }
+  /*-----graphic-lets all banner-------------------*/
+  .graphic-lets-all-banner {
+    padding: 30px 20px 30px 20px;
+  }
+  .graphic-lets-all-banner-h2 {
+    width: 60%;
+  }
+  /*-----graphic cards----------------------*/
+  .graphic-cards {
+    padding: 40px 0px 10px 0px;
+  }
+  /*-----graphic-recent works--------------*/
+  .graphic-works {
+    margin-left: 90px;
+  }
+  /*-----mastery-tools-------------*/
+  .graphic-tools-logo {
+    margin: 20px 20px 20px 43px;
   }
   .graphic-mastery-tool-bottom {
     width: 500px;
   }
+  .graphic-mastery-tool-p {
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 428px) {
+  .graphic-header {
+    padding: 160px 10px 0px 10px;
+  }
   .graphic-image2,
-  .graphic-image3 {
+  .graphic-image3,
+  .graphic-image1 {
     display: none;
   }
-  .graphic-image1 {
-    width: 100%;
-    border-top-right-radius: 120px;
-    border-bottom-right-radius: 120px;
-    margin-top: -60px;
-    margin-bottom: -100px;
-  }
   .graphic-header-part2 {
-    padding: 140px 5px 0px 5px;
+    padding: 40px 5px 0px 5px;
   }
   .graphic-header-part2-p {
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+  }
+  .graphic-header-part2-btn {
+    width: 90%;
   }
   /*-----explore more---------------------*/
   .graphic-exlore-more-left-image {
-    height: 300px;
+    height: 350px;
+    padding-left: 60px;
   }
   .graphic-exlore-more-right {
-    padding: 20px 0px 0px 0px;
+    padding: 60px 10px 0px 10px;
   }
   .graphic-exlore-more-right-li {
     margin-left: 0px;
@@ -583,9 +723,12 @@ div.swiper-button-next:hover {
   /*-----graphic-lets all banner-------------------*/
   .graphic-lets-all-banner {
     display: flex;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
     padding: 20px 5px 20px 5px;
+  }
+  .graphic-lets-all-banner-h2 {
+    width: 100%;
   }
   .graphic-lets-all-banner-btn {
     margin-top: 20px;
@@ -615,21 +758,24 @@ div.swiper-button-next:hover {
     padding: 40px 10px 40px 10px;
   }
   .graphic-recent-work-image {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
+  }
+  .graphic-works {
+    margin-left: 55px;
   }
   .graphic-recent-works-heading {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
   }
   /*-----mastery-tools-------------*/
   .graphic-mastery-tools {
     padding: 20px 20px 20px 20px;
   }
   .graphic-mastery-tool-p {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
   }
   .graphic-tools-logo {
-    margin: 20px 5px 20px 30px;
+    margin: 20px 5px 20px 35px;
   }
   .graphic-mastery-tool-bottom {
     width: 100%;
@@ -637,5 +783,32 @@ div.swiper-button-next:hover {
   .graphic-mastery-tool-logos {
     height: 50px;
     width: 50px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  /*-----explore more---------------------*/
+  .graphic-exlore-more-left-image {
+    height: 350px;
+    padding-left: 40px;
+  }
+  .graphic-works {
+    margin-left: 48px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  /*-----explore more---------------------*/
+  .graphic-exlore-more-left-image {
+    height: 350px;
+    padding-left: 25px;
+  }
+  .graphic-recent-work-image {
+    height: 80px;
+    width: 80px;
+  }
+  .graphic-works {
+    margin-left: 45px;
+  }
+  .graphic-tools-logo {
+    margin: 20px 5px 20px 28px;
   }
 }

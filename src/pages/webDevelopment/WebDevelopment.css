@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 .web-header {
   display: flex;
   flex-direction: row;
-  padding: 160px 140px 60px 140px;
+  padding: 160px 180px 60px 180px;
+  overflow: hidden;
 }
 .web-header-left {
-  width: 42%;
+  width: 38%;
 }
 .web-header-sub {
   color: #fff;
@@ -51,7 +50,7 @@
 .web-image2 {
   position: absolute;
   z-index: 1;
-  left: 52%;
+  left: 800px;
   bottom: 300px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -67,7 +66,7 @@
 }
 .web-header-part2 {
   text-align: center;
-  padding: 40px 180px 20px 180px;
+  padding: 40px 160px 40px 160px;
 }
 .web-header-part2-heading {
   font-size: 2.4rem;
@@ -102,12 +101,12 @@
 /*-----findout more----------------------------------------------------*/
 
 .web-findout-more {
-  padding: 20px 160px 40px 160px;
+  padding: 20px 180px 40px 180px;
   display: flex;
   background-color: #f3f3f3;
 }
 .web-findout-more-right {
-  padding: 40px 0px 0px 40px;
+  padding: 40px 0px 0px 60px;
 }
 .web-findout-more-right-sub {
   border: solid 3px #ee5522d2;
@@ -158,7 +157,7 @@
 /*-----web-lets all banner---------------------------------------------------*/
 
 .web-lets-all-banner {
-  padding: 30px 300px 30px 240px;
+  padding: 30px 180px 30px 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +186,7 @@
 /*-----web cards----------------------------------------------------*/
 
 .web-cards {
-  padding: 40px 140px 80px 140px;
+  padding: 40px 180px 80px 180px;
 }
 .web-cards-banner {
   align-items: center;
@@ -269,6 +268,9 @@
   padding: 10px 20px 0px 20px;
   color: #ff5319;
 }
+.web-cards-heading {
+  font-size: 2.6rem;
+}
 .web-border-card-p {
   text-align: center;
   padding: 10px 20px 10px 20px;
@@ -279,7 +281,7 @@
 /*-----web-recent works----------------------------------*/
 /*-----web-recent works----------------------------------*/
 .web-recent-works {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 180px 40px 180px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 .web-recent-works-sub {
@@ -296,12 +298,12 @@
 }
 .web-recent-works-heading {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   padding: 20px 0px 20px 0px;
 }
 .web-images-slider1 {
-  width: 99%;
+  width: 100%;
   display: flex;
   margin: auto;
   padding: 20px 0px 20px 0px;
@@ -327,16 +329,16 @@ div.swiper-button-next:hover {
   width: 260px;
   border-radius: 15px;
 }
-.works {
+.web-works {
   position: relative;
-  margin-left: 20px;
+  margin-left: 165px;
 }
 
 /*-----web-mastery-tools----------------------------------------------------*/
 /*-----web-mastery-tools----------------------------------------------------*/
 /*-----web-mastery-tools----------------------------------------------------*/
 .web-mastery-tools {
-  padding: 60px 140px 40px 140px;
+  padding: 60px 180px 40px 180px;
   background-color: rgb(255, 255, 255);
 }
 .web-mastery-tool-up .web-mastery-tool-sub {
@@ -353,7 +355,7 @@ div.swiper-button-next:hover {
 }
 .web-mastery-tool-heading {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -377,21 +379,26 @@ div.swiper-button-next:hover {
 
 @media only screen and (max-width: 1280px) {
   .web-header {
-    padding: 200px 40px 40px 80px;
+    padding: 200px 40px 100px 80px;
   }
   .web-header-right {
-    width: 70%;
+    width: 60%;
   }
   .web-image1 {
-    bottom: -40px;
+    bottom: -100px;
   }
   .web-image2 {
-    bottom: 285px;
+    top: 220px;
+    left: 700px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+  .web-findout-more-left-image {
+    height: 250px;
+    margin-top: 100px;
+  }
   .web-image3 {
-    bottom: -40px;
+    bottom: -100px;
   }
   .web-header-part2-btn {
     width: 280px;
@@ -399,27 +406,28 @@ div.swiper-button-next:hover {
     margin: 10px 10px 10px 10px;
   }
   .web-header-part2 {
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .web-header-part2-p {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 0px;
   }
   /*-----explore more---------------------*/
   .web-findout-more {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 40px 20px 40px;
     display: flex;
   }
   /*-----web-lets all banner-------------------*/
   .web-lets-all-banner {
-    padding: 30px 200px 30px 100px;
+    padding: 30px 40px 30px 40px;
   }
   /*-----web cards----------------------*/
 
   .web-cards {
-    padding: 20px 80px 80px 80px;
+    padding: 20px 40px 80px 40px;
   }
   .web-card {
-    width: 250px;
+    width: 280px;
+    padding: 10px 10px 10px 10px;
   }
   .border-card-round {
     width: 180px;
@@ -437,7 +445,14 @@ div.swiper-button-next:hover {
   /*-----web-recent works--------------*/
   .web-recent-work-image {
     width: 210px;
+    height: 200px;
     border-radius: 15px;
+  }
+  .web-recent-works-heading {
+    font-size: 2.6rem;
+  }
+  .web-works {
+    margin-left: 125px;
   }
   /*-----web-mastery-tools-------------*/
   .tools-logo {
@@ -445,6 +460,66 @@ div.swiper-button-next:hover {
   }
   .web-mastery-tool-bottom {
     width: 900px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .web-header {
+    padding: 140px 20px 80px 20px;
+  }
+  .web-header-left {
+    width: 50%;
+  }
+  .web-image1 {
+    height: 160px;
+    top: 120px;
+  }
+  .web-image2 {
+    height: 220px;
+    top: 200px;
+    left: 600px;
+  }
+  .web-image3 {
+    top: 120px;
+    height: 160px;
+    margin-right: -60px;
+  }
+  .web-header-part2 {
+    padding: 20px 20px 20px 20px;
+  }
+  .web-header-part2-p {
+    font-size: 1.2rem;
+  }
+  .web-exlore-more {
+    padding: 20px 20px 20px 20px;
+  }
+  .web-exlore-more-left-image {
+    padding: 60px 0px 0px 0px;
+  }
+  .web-cards {
+    padding: 20px 30px 80px 30px;
+  }
+  .web-card {
+    width: 220px;
+  }
+  .web-recent-work-image {
+    height: 210px;
+    width: 210px;
+  }
+  .web-recent-works {
+    padding: 40px 20px 40px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .web-works {
+    margin-left: 140px;
+  }
+  .web-lets-all-banner {
+    padding: 30px 30px 30px 30px;
+  }
+  .web-tools-logo {
+    margin: 20px 20px 40px 80px;
+  }
+  .web-mastery-tool-bottom {
+    width: 720px;
   }
 }
 @media only screen and (max-width: 835px) {

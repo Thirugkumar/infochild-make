@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 .search-header {
   display: flex;
   flex-direction: row;
-  padding: 160px 140px 0px 140px;
+  padding: 160px 180px 0px 180px;
 }
 .search-header-left {
   width: 45%;
@@ -83,7 +81,7 @@
 /*-----findout more----------------------------------------------------*/
 
 .search-findout-more {
-  padding: 20px 160px 40px 200px;
+  padding: 20px 180px 40px 180px;
   display: flex;
   background-color: #f3f3f3;
 }
@@ -139,7 +137,7 @@
 /*-----search-lets all banner---------------------------------------------------*/
 
 .search-lets-all-banner {
-  padding: 30px 300px 30px 240px;
+  padding: 30px 180px 30px 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,7 +166,7 @@
 /*-----search cards----------------------------------------------------*/
 
 .search-cards {
-  padding: 40px 140px 80px 140px;
+  padding: 40px 180px 80px 180px;
 }
 .search-cards-banner {
   align-items: center;
@@ -260,7 +258,7 @@
 /*-----search-mastery-tools----------------------------------------------------*/
 /*-----search-mastery-tools----------------------------------------------------*/
 .search-mastery-tools {
-  padding: 60px 140px 40px 140px;
+  padding: 60px 180px 40px 180px;
   background-color: rgb(240, 238, 238);
 }
 .search-mastery-tool-sub {
@@ -303,13 +301,16 @@
 
 @media only screen and (max-width: 1280px) {
   .search-header {
-    padding: 160px 40px 0px 80px;
+    padding: 160px 40px 0px 40px;
   }
   .search-header-right {
     width: 70%;
   }
+  .search-header-part2 {
+    padding: 40px 40px 40px 40px;
+  }
   .search-header-part2-btn {
-    width: 280px;
+    width: 300px;
     height: 60px;
     margin: 10px 10px 10px 10px;
   }
@@ -321,20 +322,20 @@
   }
   /*-----explore more---------------------*/
   .search-findout-more {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 40px 20px 40px;
     display: flex;
   }
   /*-----search-lets all banner-------------------*/
   .search-lets-all-banner {
-    padding: 30px 200px 30px 100px;
+    padding: 30px 40px 30px 40px;
   }
   /*-----search cards----------------------*/
 
   .search-cards {
-    padding: 20px 80px 80px 80px;
+    padding: 40px 40px 80px 40px;
   }
   .search-card {
-    width: 250px;
+    width: 270px;
   }
   .search-border-card-round {
     width: 180px;
@@ -355,6 +356,34 @@
   }
   .search-mastery-tool-bottom {
     width: 900px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .search-header {
+    padding: 100px 20px 0px 20px;
+  }
+  .search-image1 {
+    height: 240px;
+    margin-top: 100px;
+  }
+  .search-header-part2 {
+    padding: 20px 0px 20px 0px;
+  }
+  /*-----search-lets all banner-------------------*/
+  .search-lets-all-banner {
+    padding: 30px 20px 30px 20px;
+  }
+  .search-cards {
+    padding: 20px 30px 80px 30px;
+  }
+  .search-card {
+    width: 220px;
+  }
+  .search-tools-logo {
+    margin: 20px 20px 40px 80px;
+  }
+  .search-mastery-tool-bottom {
+    width: 720px;
   }
 }
 @media only screen and (max-width: 835px) {
@@ -378,12 +407,15 @@
   }
   .search-header-part2 {
     text-align: center;
-    padding: 40px 20px 20px 20px;
+    padding: 40px 10px 20px 10px;
     background-color: #f3f3f3;
+  }
+  .search-header-part2-btn {
+    width: 240px;
   }
   /*-----findout more---------------------*/
   .search-findout-more {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 10px 20px 10px;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -412,7 +444,7 @@
   }
   /*-----search-lets all banner-------------------*/
   .search-lets-all-banner {
-    padding: 30px 40px 30px 100px;
+    padding: 30px 20px 30px 20px;
   }
   /*-----search cards----------------------*/
   .search-cards {
@@ -435,7 +467,7 @@
     padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: row;
-    width: 99%;
+    width: 100%;
   }
   .search-border-card-h2 {
     font-size: 1.8rem;
@@ -456,6 +488,11 @@
     width: 500px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .search-header-part2-btn {
+    width: 220px;
+  }
+}
 @media only screen and (max-width: 428px) {
   .search-image1 {
     width: 100%;
@@ -467,7 +504,13 @@
     margin-bottom: -70px;
   }
   .search-header-part2 {
-    padding: 100px 5px 0px 5px;
+    padding: 100px 5px 40px 5px;
+  }
+  .search-header-part2-p {
+    padding: 10px 10px 10px 10px;
+  }
+  .search-header-part2-btn {
+    width: 90%;
   }
   /*-----findout more---------------------*/
   .search-findout-more-left-image {

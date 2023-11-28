@@ -1,12 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .contact {
   display: flex;
   flex-direction: row;
-  padding: 160px 140px 20px 160px;
+  padding: 140px 180px 40px 180px;
   justify-content: space-between;
   background-image: url(https://infonits.io/storage/2022/09/bg-1-e1663058147364.webp);
 }
@@ -28,13 +23,15 @@
 .contact-right-heading {
   font-size: 2.5rem;
   color: #fff;
-  padding: 20px 0px 20px 0px;
+  padding: 40px 0px 20px 0px;
   opacity: 100%;
 }
 .contact-right-p {
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   opacity: 90%;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 .contact-right-social-icons {
   font-size: 2rem;
@@ -61,6 +58,23 @@
 }
 .contact-right-social-icons .yt {
   background-color: red;
+}
+.contact-right-social-icons .fa:hover {
+  background-color: #fff;
+  transition: all 0.3s;
+  transform: scale(0.95);
+}
+.contact-right-social-icons .fb:hover {
+  color: rgb(50, 50, 255);
+}
+.contact-right-social-icons .insta:hover {
+  color: rgb(189, 1, 189);
+}
+.contact-right-social-icons .twitt:hover {
+  color: rgb(34, 170, 255);
+}
+.contact-right-social-icons .yt:hover {
+  color: red;
 }
 .contact-left {
   width: 50%;
@@ -101,7 +115,7 @@
 }
 /*-----------contact card--------------*/
 .contact-card-whole {
-  padding: 60px 140px 60px 140px;
+  padding: 60px 160px 60px 160px;
   background-color: #0a1928;
 }
 .contact-countries {
@@ -126,7 +140,7 @@
 
 .contact-cards .contact-card-box {
   display: inline-block;
-  width: 600px;
+  width: 570px;
   height: 100px;
   position: relative;
   overflow: hidden;
@@ -177,37 +191,95 @@
 }
 @media only screen and (max-width: 1280px) {
   .contact {
-    padding: 140px 60px 40px 60px;
-  }
-  .contact-card-whole {
-    padding: 60px 40px 60px 40px;
-  }
-  .contact-cards .contact-card-box {
-    width: 550px;
-  }
-}
-@media only screen and (max-width: 835px) {
-  .contact {
-    flex-direction: column;
-    padding: 60px 20px 40px 20px;
+    padding: 140px 50px 20px 50px;
   }
   .contact-left {
+    padding: 30px 40px 40px 40px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contact {
+    padding: 140px 50px 20px 50px;
+  }
+  .contact-left {
+    padding: 30px 40px 40px 40px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact {
+    padding: 140px 20px 20px 20px;
+  }
+  .contact-right {
+    width: 80%;
+    text-align: center;
+    padding: 0px 20px 0px 10px;
+  }
+  .contact-right-heading {
+    font-size: 2.2srem;
+  }
+
+  .contact-left {
     width: 100%;
+    border-radius: 10px;
+    padding: 30px 40px 20px 40px;
     margin-top: -40px;
+  }
+  .contact-cards .contact-card-box {
+    width: 490px;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 10px 20px 10px;
+    justify-content: space-around;
   }
   .contact-right {
     width: 100%;
+    padding-bottom: 80px;
   }
+
   .contact-right-heading {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
+
+  .contact-left {
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px 40px 20px 40px;
+    margin-top: -40px;
+  }
+
   .contact-card-whole {
     padding: 40px 20px 40px 20px;
   }
+
   .contact-cards .contact-card-box {
-    width: 360px;
+    width: 400px;
+  }
+
+  .contact-card-info {
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 5px;
+    opacity: 500%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .contact-left {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+  .contact-cards .contact-card-box {
+    width: 370px;
+  }
+  .contact-card-info {
+    font-weight: 280;
+  }
+}
+
 @media only screen and (max-width: 428px) {
   .contact-countries {
     display: flex;
@@ -215,5 +287,26 @@
   }
   .contact-cards .contact-card-box {
     width: 100%;
+    height: 100px;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .contact-countries {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-cards .contact-card-box {
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .contact-right-heading {
+    font-size: 1.7rem;
   }
 }

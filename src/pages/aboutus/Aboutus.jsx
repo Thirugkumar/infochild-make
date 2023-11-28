@@ -25,12 +25,17 @@ function Aboutus() {
             Sri Lanka and the UK
           </p>
           <button className="about-right-btn secondarybg">
-            <span>GET STARTED NOW</span>
+            <span>GET START NOW</span>
           </button>
         </div>
         <div className="about-left">
           <div className="about-left-img">
-            <img src={Team} alt="" height={500} />
+            <img
+              className="about-left-img-team"
+              src={Team}
+              alt=""
+              height={500}
+            />
           </div>
         </div>
       </div>
@@ -81,14 +86,14 @@ function Aboutus() {
         </div>
         <div className="about-memories-bottom">
           <div className="about-memo-img">
-            <img src={about1} width={380} />
-            <img src={about2} width={380} />
-            <img src={about3} width={380} />
+            <img src={about1} width={360} />
+            <img src={about2} width={360} />
+            <img src={about3} width={360} />
           </div>
           <div className="about-memo-img">
-            <img src={about4} width={380} />
-            <img src={about5} width={380} />
-            <img src={about6} width={380} />
+            <img src={about4} width={360} />
+            <img src={about5} width={360} />
+            <img src={about6} width={360} />
           </div>
         </div>
       </div>

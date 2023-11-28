@@ -1,25 +1,18 @@
-* {
-  font-family: "Poppins", sans-serif;
-}
-
 .whyInfonits {
   display: flex;
-  flex-direction: row;
-  padding: 0px 0px 10px 140px;
+  flex-direction: row-reverse;
+  padding: 0px 160px 10px 160px;
+  justify-content: space-between;
+  overflow: hidden;
 }
-
 .w-right {
-  margin-left: 40px;
   width: 50%;
 }
-
 .w-left {
-  margin-top: 60px;
   width: 45%;
+  padding: 60px 0px 0px 0px;
 }
-
 .sub {
-  color: #ff3600;
   font-size: 1.2rem;
   letter-spacing: 1px;
   font-weight: 600;
@@ -29,94 +22,116 @@
   position: relative;
 }
 .sub span:after {
-  content: "\2712";
+  content: "\2015";
   position: absolute;
   opacity: 100;
   top: 0;
   right: -20px;
 }
 .why-heading {
-  font-size: 3rem;
-  color: #003366;
+  font-size: 2.6rem;
   opacity: 90%;
   margin-top: 10px;
-  line-height: 55px;
+  line-height: 50px;
 }
-
 .why-p {
   margin-top: 10px;
   opacity: 90%;
-  line-height: 35px;
-  font-size: 1.4rem;
+  line-height: 30px;
+  font-size: 1.3rem;
 }
-
 .why-p .since {
   color: #fff;
-  background-color: #ff3600;
   border-radius: 5px;
   font-weight: bold;
 }
-
 .lists {
-  padding: 20px 0px 0px 10px;
+  padding: 25px 0px 0px 10px;
 }
-
 .lists .set {
   display: flex;
   margin-bottom: 20px;
 }
-
 .lists .man {
   display: flex;
 }
-
 .lists .list-img {
   cursor: pointer;
 }
 .s-info {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .lists .list-img:hover {
   transform: scale(0.9);
   transition: all 0.3s ease-in;
 }
-
+.only-4n-view .only-4n-view-p {
+  visibility: hidden;
+}
+@media only screen and (max-width: 2560px) {
+  .whyInfonits {
+    padding: 40px 660px 40px 660px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .whyInfonits {
+    padding: 40px 160px 40px 160px;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .whyInfonits {
-    padding: 0px 40px 0px 40px;
+    padding: 40px 40px 40px 40px;
   }
   .w-right .w-img {
-    height: 450px;
-    margin-top: 20px;
+    height: 500px;
   }
-
   .w-left {
     width: 50%;
   }
   .w-right {
-    margin-left: 40px;
     width: 40%;
-    margin-top: 50px;
   }
   .why-p {
     line-height: 35px;
+    font-size: 1.3rem;
   }
   .s-info {
     margin-top: 10px;
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .whyInfonits {
+    padding: 20px 20px 40px 20px;
+  }
+  .w-right .w-img {
+    height: 450px;
+  }
+  .why-p {
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  .s-info {
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+  .lists {
+    padding: 10px 0px 0px 10px;
   }
 }
 @media only screen and (max-width: 835px) {
   .whyInfonits {
-    padding: 0px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column-reverse;
   }
   .sub {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .w-left {
     width: 100%;
+    padding: 20px 0px 40px 0px;
   }
   .w-right {
     padding: 0;
@@ -128,7 +143,7 @@
     text-align: center;
   }
   .w-right .w-img {
-    height: 500px;
+    height: 600px;
   }
   .w-left {
     margin: 0;
@@ -141,15 +156,19 @@
     font-size: 1.5rem;
   }
   .lists {
-    margin-left: 40px;
+    margin-left: 20px;
+    padding: 25px 0px 0px 10px;
   }
   .s-info {
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 1.2rem;
     opacity: 90%;
   }
 }
 @media only screen and (max-width: 429px) {
+  .whyInfonits {
+    padding: 20px 10px 20px 10px;
+  }
   .w-left {
     width: 100%;
   }
@@ -168,27 +187,41 @@
   .w-left {
     margin: 0;
   }
-  .sub {
-    text-align: center;
-  }
+
   .why-heading {
-    margin: 0;
+    margin: 10px 0px 10px 0px;
     font-size: 2rem;
-    text-align: center;
-    line-height: 50px;
+    line-height: 40px;
   }
   .why-p {
     font-size: 1.2rem;
-    text-align: center;
-    margin: 0;
+    margin: 10px 0px 10px 0px;
+    line-height: 30px;
   }
   .s-info {
-    margin-top: 5px;
-    font-size: 0.9rem;
+    margin-top: 8px;
+    font-size: 1rem;
     opacity: 90%;
   }
   .lists {
     margin: 0;
     padding: 0;
+  }
+  .only-4n-view .only-4n-view-p {
+    visibility: visible;
+    padding: 10px 20px 10px 20px;
+    width: 90%;
+    height: 90px;
+    margin: -10px 20px 40px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 429px) {
+  .w-right .w-img {
+    height: 290px;
   }
 }

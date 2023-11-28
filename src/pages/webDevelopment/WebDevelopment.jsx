@@ -225,7 +225,7 @@ function WebDevelopment() {
                 autoplay={{ delay: 2000, enableOnInteraction: true }}
                 pagination={false}
                 navigation={true}
-                slidesPerView={5}
+                slidesPerView={4}
                 loop={true}
                 className="mySwiper"
               >
@@ -302,7 +302,7 @@ function WebDevelopment() {
                 autoplay={{ delay: 2500, enableOnInteraction: true }}
                 pagination={false}
                 navigation={true}
-                slidesPerView={5}
+                slidesPerView={4}
                 loop={true}
                 className="mySwiper"
               >

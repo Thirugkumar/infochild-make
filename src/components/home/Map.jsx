@@ -50,16 +50,16 @@ function Map() {
         </div>
       </div>
       <div className="map-right">
-        <h4 className="map-subtitle">
+        <h4 className="map-subtitle secondary">
           <span>DEDICATED TO SERVING YOUR NEEDS -</span>
         </h4>
-        <h2 className="map-title">We're All Over The World</h2>
+        <h2 className="map-title primary">We're All Over The World</h2>
         <p className="map-text">
           We proudly rank among the top IT-based firms in Sri Lanka and hold a
           renowned presence as a globally recognized brand in the UK, USA,
           Canada, and beyond
         </p>
-        <button className="map-btn">EXPLORE MORE</button>
+        <button className="map-btn secondarybg">EXPLORE MORE</button>
       </div>
     </div>
   );
